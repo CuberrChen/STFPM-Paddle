@@ -1,0 +1,803 @@
+/home/aistudio/STFPM-main
+W0412 00:00:47.723600 22057 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0412 00:00:47.728377 22057 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:00:57	Epoch 0[32/48]: loss:3.58739, lr:0.40000, batch time:0.0798, data time:0.2049
+2022-04-12 00:00:57	Epoch 0 training ends, total 0.37s
+2022-04-12 00:00:57	Epoch 0 testing start
+2022-04-12 00:00:57	Valid Loss: 2.8207159
+2022-04-12 00:00:59	Epoch: 0	Catergory: toothbrush	Pixel-AUC: 0.200311	Image-AUC: 0.305556
+2022-04-12 00:00:59	Epoch 0 testing end, total 1.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:00:59	Epoch 1[32/48]: loss:2.58850, lr:0.40000, batch time:0.0313, data time:0.2001
+2022-04-12 00:00:59	Epoch 1 training ends, total 0.36s
+2022-04-12 00:00:59	Epoch 1 testing start
+2022-04-12 00:00:59	Valid Loss: 3.4896218
+2022-04-12 00:01:01	Epoch: 1	Catergory: toothbrush	Pixel-AUC: 0.195301	Image-AUC: 0.508333
+2022-04-12 00:01:01	Epoch 1 testing end, total 1.54s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:01	Epoch 2[32/48]: loss:2.06477, lr:0.40000, batch time:0.0483, data time:0.1988
+2022-04-12 00:01:01	Epoch 2 training ends, total 0.36s
+2022-04-12 00:01:01	Epoch 2 testing start
+2022-04-12 00:01:01	Valid Loss: 3.2847303
+2022-04-12 00:01:03	Epoch: 2	Catergory: toothbrush	Pixel-AUC: 0.193667	Image-AUC: 0.480556
+2022-04-12 00:01:03	Epoch 2 testing end, total 1.54s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:03	Epoch 3[32/48]: loss:1.81360, lr:0.40000, batch time:0.0489, data time:0.1989
+2022-04-12 00:01:03	Epoch 3 training ends, total 0.36s
+2022-04-12 00:01:03	Epoch 3 testing start
+2022-04-12 00:01:03	Valid Loss: 2.7652196
+2022-04-12 00:01:05	Epoch: 3	Catergory: toothbrush	Pixel-AUC: 0.213536	Image-AUC: 0.447222
+2022-04-12 00:01:05	Epoch 3 testing end, total 1.71s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:05	Epoch 4[32/48]: loss:1.62526, lr:0.40000, batch time:0.0486, data time:0.2046
+2022-04-12 00:01:05	Epoch 4 training ends, total 0.37s
+2022-04-12 00:01:05	Epoch 4 testing start
+2022-04-12 00:01:05	Valid Loss: 2.1026256
+2022-04-12 00:01:07	Epoch: 4	Catergory: toothbrush	Pixel-AUC: 0.306779	Image-AUC: 0.502778
+2022-04-12 00:01:07	Epoch 4 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:07	Epoch 5[32/48]: loss:1.48547, lr:0.40000, batch time:0.0477, data time:0.1998
+2022-04-12 00:01:07	Epoch 5 training ends, total 0.36s
+2022-04-12 00:01:07	Epoch 5 testing start
+2022-04-12 00:01:07	Valid Loss: 1.5191067
+2022-04-12 00:01:09	Epoch: 5	Catergory: toothbrush	Pixel-AUC: 0.676968	Image-AUC: 0.450000
+2022-04-12 00:01:09	Epoch 5 testing end, total 1.68s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:09	Epoch 6[32/48]: loss:1.37441, lr:0.40000, batch time:0.0313, data time:0.1983
+2022-04-12 00:01:09	Epoch 6 training ends, total 0.36s
+2022-04-12 00:01:09	Epoch 6 testing start
+2022-04-12 00:01:09	Valid Loss: 0.9014437
+2022-04-12 00:01:11	Epoch: 6	Catergory: toothbrush	Pixel-AUC: 0.869333	Image-AUC: 0.552778
+2022-04-12 00:01:11	Epoch 6 testing end, total 1.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:11	Epoch 7[32/48]: loss:1.27872, lr:0.40000, batch time:0.0329, data time:0.1986
+2022-04-12 00:01:11	Epoch 7 training ends, total 0.37s
+2022-04-12 00:01:11	Epoch 7 testing start
+2022-04-12 00:01:11	Valid Loss: 0.6893904
+2022-04-12 00:01:13	Epoch: 7	Catergory: toothbrush	Pixel-AUC: 0.882322	Image-AUC: 0.638889
+2022-04-12 00:01:13	Epoch 7 testing end, total 1.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:13	Epoch 8[32/48]: loss:1.20414, lr:0.40000, batch time:0.0321, data time:0.1985
+2022-04-12 00:01:13	Epoch 8 training ends, total 0.36s
+2022-04-12 00:01:13	Epoch 8 testing start
+2022-04-12 00:01:13	Valid Loss: 0.5744479
+2022-04-12 00:01:15	Epoch: 8	Catergory: toothbrush	Pixel-AUC: 0.892376	Image-AUC: 0.652778
+2022-04-12 00:01:15	Epoch 8 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:15	Epoch 9[32/48]: loss:1.14286, lr:0.40000, batch time:0.0307, data time:0.1996
+2022-04-12 00:01:15	Epoch 9 training ends, total 0.36s
+2022-04-12 00:01:15	Epoch 9 testing start
+2022-04-12 00:01:15	Valid Loss: 0.4634148
+2022-04-12 00:01:17	Epoch: 9	Catergory: toothbrush	Pixel-AUC: 0.902806	Image-AUC: 0.672222
+2022-04-12 00:01:17	Epoch 9 testing end, total 1.68s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:17	Epoch 10[32/48]: loss:1.08928, lr:0.40000, batch time:0.0478, data time:0.1992
+2022-04-12 00:01:17	Epoch 10 training ends, total 0.36s
+2022-04-12 00:01:17	Epoch 10 testing start
+2022-04-12 00:01:17	Valid Loss: 0.3732988
+2022-04-12 00:01:19	Epoch: 10	Catergory: toothbrush	Pixel-AUC: 0.914199	Image-AUC: 0.713889
+2022-04-12 00:01:19	Epoch 10 testing end, total 1.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:19	Epoch 11[32/48]: loss:1.04190, lr:0.40000, batch time:0.0308, data time:0.2004
+2022-04-12 00:01:19	Epoch 11 training ends, total 0.36s
+2022-04-12 00:01:19	Epoch 11 testing start
+2022-04-12 00:01:19	Valid Loss: 0.2886514
+2022-04-12 00:01:21	Epoch: 11	Catergory: toothbrush	Pixel-AUC: 0.928750	Image-AUC: 0.730556
+2022-04-12 00:01:21	Epoch 11 testing end, total 1.69s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:21	Epoch 12[32/48]: loss:1.00011, lr:0.40000, batch time:0.0310, data time:0.1986
+2022-04-12 00:01:21	Epoch 12 training ends, total 0.36s
+2022-04-12 00:01:21	Epoch 12 testing start
+2022-04-12 00:01:21	Valid Loss: 0.2200611
+2022-04-12 00:01:23	Epoch: 12	Catergory: toothbrush	Pixel-AUC: 0.942756	Image-AUC: 0.722222
+2022-04-12 00:01:23	Epoch 12 testing end, total 1.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:23	Epoch 13[32/48]: loss:0.95121, lr:0.40000, batch time:0.0661, data time:0.1995
+2022-04-12 00:01:23	Epoch 13 training ends, total 0.36s
+2022-04-12 00:01:23	Epoch 13 testing start
+2022-04-12 00:01:23	Valid Loss: 0.1630338
+2022-04-12 00:01:25	Epoch: 13	Catergory: toothbrush	Pixel-AUC: 0.954736	Image-AUC: 0.794444
+2022-04-12 00:01:25	Epoch 13 testing end, total 1.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:25	Epoch 14[32/48]: loss:0.91554, lr:0.40000, batch time:0.0657, data time:0.2214
+2022-04-12 00:01:25	Epoch 14 training ends, total 0.38s
+2022-04-12 00:01:25	Epoch 14 testing start
+2022-04-12 00:01:25	Valid Loss: 0.1352879
+2022-04-12 00:01:27	Epoch: 14	Catergory: toothbrush	Pixel-AUC: 0.961939	Image-AUC: 0.813889
+2022-04-12 00:01:27	Epoch 14 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:27	Epoch 15[32/48]: loss:0.88172, lr:0.40000, batch time:0.0677, data time:0.2048
+2022-04-12 00:01:27	Epoch 15 training ends, total 0.37s
+2022-04-12 00:01:27	Epoch 15 testing start
+2022-04-12 00:01:27	Valid Loss: 0.1031963
+2022-04-12 00:01:29	Epoch: 15	Catergory: toothbrush	Pixel-AUC: 0.967630	Image-AUC: 0.811111
+2022-04-12 00:01:29	Epoch 15 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:29	Epoch 16[32/48]: loss:0.85170, lr:0.40000, batch time:0.0313, data time:0.1999
+2022-04-12 00:01:29	Epoch 16 training ends, total 0.36s
+2022-04-12 00:01:29	Epoch 16 testing start
+2022-04-12 00:01:30	Valid Loss: 0.0857630
+2022-04-12 00:01:31	Epoch: 16	Catergory: toothbrush	Pixel-AUC: 0.970741	Image-AUC: 0.836111
+2022-04-12 00:01:31	Epoch 16 testing end, total 1.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:31	Epoch 17[32/48]: loss:0.82261, lr:0.40000, batch time:0.0308, data time:0.2014
+2022-04-12 00:01:31	Epoch 17 training ends, total 0.36s
+2022-04-12 00:01:31	Epoch 17 testing start
+2022-04-12 00:01:32	Valid Loss: 0.0831761
+2022-04-12 00:01:33	Epoch: 17	Catergory: toothbrush	Pixel-AUC: 0.970942	Image-AUC: 0.791667
+2022-04-12 00:01:33	Epoch 17 testing end, total 1.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:33	Epoch 18[32/48]: loss:0.79682, lr:0.40000, batch time:0.0480, data time:0.1997
+2022-04-12 00:01:33	Epoch 18 training ends, total 0.36s
+2022-04-12 00:01:33	Epoch 18 testing start
+2022-04-12 00:01:34	Valid Loss: 0.0717500
+2022-04-12 00:01:35	Epoch: 18	Catergory: toothbrush	Pixel-AUC: 0.973539	Image-AUC: 0.838889
+2022-04-12 00:01:35	Epoch 18 testing end, total 1.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:35	Epoch 19[32/48]: loss:0.77272, lr:0.40000, batch time:0.0687, data time:0.2009
+2022-04-12 00:01:35	Epoch 19 training ends, total 0.37s
+2022-04-12 00:01:35	Epoch 19 testing start
+2022-04-12 00:01:36	Valid Loss: 0.0651096
+2022-04-12 00:01:37	Epoch: 19	Catergory: toothbrush	Pixel-AUC: 0.976474	Image-AUC: 0.850000
+2022-04-12 00:01:37	Epoch 19 testing end, total 1.71s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:37	Epoch 20[32/48]: loss:0.75161, lr:0.40000, batch time:0.0480, data time:0.2006
+2022-04-12 00:01:38	Epoch 20 training ends, total 0.36s
+2022-04-12 00:01:38	Epoch 20 testing start
+2022-04-12 00:01:38	Valid Loss: 0.0615881
+2022-04-12 00:01:39	Epoch: 20	Catergory: toothbrush	Pixel-AUC: 0.977537	Image-AUC: 0.875000
+2022-04-12 00:01:39	Epoch 20 testing end, total 1.71s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:39	Epoch 21[32/48]: loss:0.73116, lr:0.40000, batch time:0.0386, data time:0.1994
+2022-04-12 00:01:40	Epoch 21 training ends, total 0.38s
+2022-04-12 00:01:40	Epoch 21 testing start
+2022-04-12 00:01:40	Valid Loss: 0.0558059
+2022-04-12 00:01:41	Epoch: 21	Catergory: toothbrush	Pixel-AUC: 0.978725	Image-AUC: 0.911111
+2022-04-12 00:01:41	Epoch 21 testing end, total 1.75s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:42	Epoch 22[32/48]: loss:0.70889, lr:0.40000, batch time:0.0698, data time:0.2005
+2022-04-12 00:01:42	Epoch 22 training ends, total 0.37s
+2022-04-12 00:01:42	Epoch 22 testing start
+2022-04-12 00:01:42	Valid Loss: 0.0684305
+2022-04-12 00:01:43	Epoch: 22	Catergory: toothbrush	Pixel-AUC: 0.976274	Image-AUC: 0.894444
+2022-04-12 00:01:43	Epoch 22 testing end, total 1.61s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:44	Epoch 23[32/48]: loss:0.69224, lr:0.40000, batch time:0.0313, data time:0.1994
+2022-04-12 00:01:44	Epoch 23 training ends, total 0.36s
+2022-04-12 00:01:44	Epoch 23 testing start
+2022-04-12 00:01:44	Valid Loss: 0.0619195
+2022-04-12 00:01:45	Epoch: 23	Catergory: toothbrush	Pixel-AUC: 0.976239	Image-AUC: 0.891667
+2022-04-12 00:01:45	Epoch 23 testing end, total 1.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:46	Epoch 24[32/48]: loss:0.67355, lr:0.40000, batch time:0.0483, data time:0.2022
+2022-04-12 00:01:46	Epoch 24 training ends, total 0.36s
+2022-04-12 00:01:46	Epoch 24 testing start
+2022-04-12 00:01:46	Valid Loss: 0.0578533
+2022-04-12 00:01:47	Epoch: 24	Catergory: toothbrush	Pixel-AUC: 0.977438	Image-AUC: 0.894444
+2022-04-12 00:01:47	Epoch 24 testing end, total 1.60s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:47	Epoch 25[32/48]: loss:0.65705, lr:0.40000, batch time:0.0307, data time:0.2026
+2022-04-12 00:01:48	Epoch 25 training ends, total 0.36s
+2022-04-12 00:01:48	Epoch 25 testing start
+2022-04-12 00:01:48	Valid Loss: 0.0519712
+2022-04-12 00:01:49	Epoch: 25	Catergory: toothbrush	Pixel-AUC: 0.979561	Image-AUC: 0.919444
+2022-04-12 00:01:49	Epoch 25 testing end, total 1.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:49	Epoch 26[32/48]: loss:0.64603, lr:0.40000, batch time:0.0311, data time:0.1995
+2022-04-12 00:01:50	Epoch 26 training ends, total 0.36s
+2022-04-12 00:01:50	Epoch 26 testing start
+2022-04-12 00:01:50	Valid Loss: 0.0521426
+2022-04-12 00:01:51	Epoch: 26	Catergory: toothbrush	Pixel-AUC: 0.979407	Image-AUC: 0.905556
+2022-04-12 00:01:51	Epoch 26 testing end, total 1.56s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:51	Epoch 27[32/48]: loss:0.62869, lr:0.40000, batch time:0.0864, data time:0.2039
+2022-04-12 00:01:52	Epoch 27 training ends, total 0.39s
+2022-04-12 00:01:52	Epoch 27 testing start
+2022-04-12 00:01:52	Valid Loss: 0.0443020
+2022-04-12 00:01:53	Epoch: 27	Catergory: toothbrush	Pixel-AUC: 0.980424	Image-AUC: 0.913889
+2022-04-12 00:01:53	Epoch 27 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:53	Epoch 28[32/48]: loss:0.61604, lr:0.40000, batch time:0.0315, data time:0.2003
+2022-04-12 00:01:54	Epoch 28 training ends, total 0.36s
+2022-04-12 00:01:54	Epoch 28 testing start
+2022-04-12 00:01:54	Valid Loss: 0.0502105
+2022-04-12 00:01:55	Epoch: 28	Catergory: toothbrush	Pixel-AUC: 0.979026	Image-AUC: 0.902778
+2022-04-12 00:01:55	Epoch 28 testing end, total 1.58s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:55	Epoch 29[32/48]: loss:0.60018, lr:0.40000, batch time:0.0726, data time:0.2006
+2022-04-12 00:01:56	Epoch 29 training ends, total 0.37s
+2022-04-12 00:01:56	Epoch 29 testing start
+2022-04-12 00:01:56	Valid Loss: 0.0397035
+2022-04-12 00:01:57	Epoch: 29	Catergory: toothbrush	Pixel-AUC: 0.981269	Image-AUC: 0.936111
+2022-04-12 00:01:57	Epoch 29 testing end, total 1.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:01:57	Epoch 30[32/48]: loss:0.59030, lr:0.40000, batch time:0.0479, data time:0.1995
+2022-04-12 00:01:58	Epoch 30 training ends, total 0.36s
+2022-04-12 00:01:58	Epoch 30 testing start
+2022-04-12 00:01:58	Valid Loss: 0.0392838
+2022-04-12 00:01:59	Epoch: 30	Catergory: toothbrush	Pixel-AUC: 0.981374	Image-AUC: 0.944444
+2022-04-12 00:01:59	Epoch 30 testing end, total 1.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:00	Epoch 31[32/48]: loss:0.58097, lr:0.40000, batch time:0.0668, data time:0.2013
+2022-04-12 00:02:00	Epoch 31 training ends, total 0.36s
+2022-04-12 00:02:00	Epoch 31 testing start
+2022-04-12 00:02:00	Valid Loss: 0.0441975
+2022-04-12 00:02:01	Epoch: 31	Catergory: toothbrush	Pixel-AUC: 0.979879	Image-AUC: 0.883333
+2022-04-12 00:02:01	Epoch 31 testing end, total 1.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:01	Epoch 32[32/48]: loss:0.57115, lr:0.40000, batch time:0.0313, data time:0.1995
+2022-04-12 00:02:02	Epoch 32 training ends, total 0.36s
+2022-04-12 00:02:02	Epoch 32 testing start
+2022-04-12 00:02:02	Valid Loss: 0.0279346
+2022-04-12 00:02:03	Epoch: 32	Catergory: toothbrush	Pixel-AUC: 0.983369	Image-AUC: 0.922222
+2022-04-12 00:02:03	Epoch 32 testing end, total 1.68s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:03	Epoch 33[32/48]: loss:0.56185, lr:0.40000, batch time:0.0312, data time:0.1989
+2022-04-12 00:02:04	Epoch 33 training ends, total 0.36s
+2022-04-12 00:02:04	Epoch 33 testing start
+2022-04-12 00:02:04	Valid Loss: 0.0241105
+2022-04-12 00:02:05	Epoch: 33	Catergory: toothbrush	Pixel-AUC: 0.984577	Image-AUC: 0.888889
+2022-04-12 00:02:05	Epoch 33 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:05	Epoch 34[32/48]: loss:0.55490, lr:0.40000, batch time:0.0309, data time:0.2009
+2022-04-12 00:02:06	Epoch 34 training ends, total 0.36s
+2022-04-12 00:02:06	Epoch 34 testing start
+2022-04-12 00:02:06	Valid Loss: 0.0257704
+2022-04-12 00:02:07	Epoch: 34	Catergory: toothbrush	Pixel-AUC: 0.984705	Image-AUC: 0.930556
+2022-04-12 00:02:07	Epoch 34 testing end, total 1.56s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:07	Epoch 35[32/48]: loss:0.55012, lr:0.40000, batch time:0.0476, data time:0.1999
+2022-04-12 00:02:08	Epoch 35 training ends, total 0.36s
+2022-04-12 00:02:08	Epoch 35 testing start
+2022-04-12 00:02:08	Valid Loss: 0.0195571
+2022-04-12 00:02:09	Epoch: 35	Catergory: toothbrush	Pixel-AUC: 0.982932	Image-AUC: 0.861111
+2022-04-12 00:02:09	Epoch 35 testing end, total 1.68s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:09	Epoch 36[32/48]: loss:0.53910, lr:0.40000, batch time:0.0309, data time:0.1992
+2022-04-12 00:02:10	Epoch 36 training ends, total 0.36s
+2022-04-12 00:02:10	Epoch 36 testing start
+2022-04-12 00:02:10	Valid Loss: 0.0218848
+2022-04-12 00:02:11	Epoch: 36	Catergory: toothbrush	Pixel-AUC: 0.981444	Image-AUC: 0.863889
+2022-04-12 00:02:11	Epoch 36 testing end, total 1.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:11	Epoch 37[32/48]: loss:0.53144, lr:0.40000, batch time:0.0480, data time:0.1999
+2022-04-12 00:02:11	Epoch 37 training ends, total 0.36s
+2022-04-12 00:02:11	Epoch 37 testing start
+2022-04-12 00:02:12	Valid Loss: 0.0175486
+2022-04-12 00:02:13	Epoch: 37	Catergory: toothbrush	Pixel-AUC: 0.985274	Image-AUC: 0.858333
+2022-04-12 00:02:13	Epoch 37 testing end, total 1.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:13	Epoch 38[32/48]: loss:0.52125, lr:0.40000, batch time:0.0311, data time:0.1991
+2022-04-12 00:02:13	Epoch 38 training ends, total 0.36s
+2022-04-12 00:02:13	Epoch 38 testing start
+2022-04-12 00:02:14	Valid Loss: 0.0160570
+2022-04-12 00:02:15	Epoch: 38	Catergory: toothbrush	Pixel-AUC: 0.984351	Image-AUC: 0.833333
+2022-04-12 00:02:15	Epoch 38 testing end, total 1.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:15	Epoch 39[32/48]: loss:0.51079, lr:0.40000, batch time:0.0479, data time:0.2012
+2022-04-12 00:02:15	Epoch 39 training ends, total 0.36s
+2022-04-12 00:02:15	Epoch 39 testing start
+2022-04-12 00:02:16	Valid Loss: 0.0150746
+2022-04-12 00:02:17	Epoch: 39	Catergory: toothbrush	Pixel-AUC: 0.984746	Image-AUC: 0.838889
+2022-04-12 00:02:17	Epoch 39 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:17	Epoch 40[32/48]: loss:0.50127, lr:0.40000, batch time:0.0501, data time:0.2000
+2022-04-12 00:02:18	Epoch 40 training ends, total 0.36s
+2022-04-12 00:02:18	Epoch 40 testing start
+2022-04-12 00:02:18	Valid Loss: 0.0147915
+2022-04-12 00:02:19	Epoch: 40	Catergory: toothbrush	Pixel-AUC: 0.985424	Image-AUC: 0.838889
+2022-04-12 00:02:19	Epoch 40 testing end, total 1.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:19	Epoch 41[32/48]: loss:0.49188, lr:0.40000, batch time:0.0492, data time:0.1989
+2022-04-12 00:02:20	Epoch 41 training ends, total 0.36s
+2022-04-12 00:02:20	Epoch 41 testing start
+2022-04-12 00:02:20	Valid Loss: 0.0142673
+2022-04-12 00:02:21	Epoch: 41	Catergory: toothbrush	Pixel-AUC: 0.985056	Image-AUC: 0.838889
+2022-04-12 00:02:21	Epoch 41 testing end, total 1.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:21	Epoch 42[32/48]: loss:0.48543, lr:0.40000, batch time:0.0478, data time:0.1989
+2022-04-12 00:02:22	Epoch 42 training ends, total 0.36s
+2022-04-12 00:02:22	Epoch 42 testing start
+2022-04-12 00:02:22	Valid Loss: 0.0133682
+2022-04-12 00:02:23	Epoch: 42	Catergory: toothbrush	Pixel-AUC: 0.985620	Image-AUC: 0.833333
+2022-04-12 00:02:23	Epoch 42 testing end, total 1.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:23	Epoch 43[32/48]: loss:0.47590, lr:0.40000, batch time:0.0479, data time:0.1993
+2022-04-12 00:02:24	Epoch 43 training ends, total 0.36s
+2022-04-12 00:02:24	Epoch 43 testing start
+2022-04-12 00:02:24	Valid Loss: 0.0135547
+2022-04-12 00:02:25	Epoch: 43	Catergory: toothbrush	Pixel-AUC: 0.986261	Image-AUC: 0.838889
+2022-04-12 00:02:25	Epoch 43 testing end, total 1.52s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:25	Epoch 44[32/48]: loss:0.46857, lr:0.40000, batch time:0.0493, data time:0.1991
+2022-04-12 00:02:25	Epoch 44 training ends, total 0.36s
+2022-04-12 00:02:25	Epoch 44 testing start
+2022-04-12 00:02:26	Valid Loss: 0.0130238
+2022-04-12 00:02:27	Epoch: 44	Catergory: toothbrush	Pixel-AUC: 0.986295	Image-AUC: 0.836111
+2022-04-12 00:02:27	Epoch 44 testing end, total 1.68s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:27	Epoch 45[32/48]: loss:0.46358, lr:0.40000, batch time:0.0307, data time:0.1985
+2022-04-12 00:02:27	Epoch 45 training ends, total 0.36s
+2022-04-12 00:02:27	Epoch 45 testing start
+2022-04-12 00:02:28	Valid Loss: 0.0132166
+2022-04-12 00:02:29	Epoch: 45	Catergory: toothbrush	Pixel-AUC: 0.986426	Image-AUC: 0.836111
+2022-04-12 00:02:29	Epoch 45 testing end, total 1.50s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:29	Epoch 46[32/48]: loss:0.45670, lr:0.40000, batch time:0.0480, data time:0.1995
+2022-04-12 00:02:29	Epoch 46 training ends, total 0.36s
+2022-04-12 00:02:29	Epoch 46 testing start
+2022-04-12 00:02:29	Valid Loss: 0.0117785
+2022-04-12 00:02:31	Epoch: 46	Catergory: toothbrush	Pixel-AUC: 0.986382	Image-AUC: 0.833333
+2022-04-12 00:02:31	Epoch 46 testing end, total 1.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:31	Epoch 47[32/48]: loss:0.45340, lr:0.40000, batch time:0.0312, data time:0.2009
+2022-04-12 00:02:31	Epoch 47 training ends, total 0.36s
+2022-04-12 00:02:31	Epoch 47 testing start
+2022-04-12 00:02:31	Valid Loss: 0.0121428
+2022-04-12 00:02:33	Epoch: 47	Catergory: toothbrush	Pixel-AUC: 0.986904	Image-AUC: 0.833333
+2022-04-12 00:02:33	Epoch 47 testing end, total 1.52s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:33	Epoch 48[32/48]: loss:0.44474, lr:0.40000, batch time:0.0328, data time:0.1999
+2022-04-12 00:02:33	Epoch 48 training ends, total 0.37s
+2022-04-12 00:02:33	Epoch 48 testing start
+2022-04-12 00:02:33	Valid Loss: 0.0116025
+2022-04-12 00:02:35	Epoch: 48	Catergory: toothbrush	Pixel-AUC: 0.986929	Image-AUC: 0.836111
+2022-04-12 00:02:35	Epoch 48 testing end, total 1.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:35	Epoch 49[32/48]: loss:0.43936, lr:0.40000, batch time:0.0319, data time:0.1993
+2022-04-12 00:02:35	Epoch 49 training ends, total 0.36s
+2022-04-12 00:02:35	Epoch 49 testing start
+2022-04-12 00:02:35	Valid Loss: 0.0109991
+2022-04-12 00:02:37	Epoch: 49	Catergory: toothbrush	Pixel-AUC: 0.987217	Image-AUC: 0.833333
+2022-04-12 00:02:37	Epoch 49 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:37	Epoch 50[32/48]: loss:0.43165, lr:0.40000, batch time:0.0488, data time:0.1995
+2022-04-12 00:02:37	Epoch 50 training ends, total 0.36s
+2022-04-12 00:02:37	Epoch 50 testing start
+2022-04-12 00:02:37	Valid Loss: 0.0109487
+2022-04-12 00:02:39	Epoch: 50	Catergory: toothbrush	Pixel-AUC: 0.987350	Image-AUC: 0.836111
+2022-04-12 00:02:39	Epoch 50 testing end, total 1.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:39	Epoch 51[32/48]: loss:0.42891, lr:0.40000, batch time:0.0666, data time:0.2034
+2022-04-12 00:02:39	Epoch 51 training ends, total 0.37s
+2022-04-12 00:02:39	Epoch 51 testing start
+2022-04-12 00:02:39	Valid Loss: 0.0103085
+2022-04-12 00:02:41	Epoch: 51	Catergory: toothbrush	Pixel-AUC: 0.987595	Image-AUC: 0.827778
+2022-04-12 00:02:41	Epoch 51 testing end, total 1.68s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:41	Epoch 52[32/48]: loss:0.42300, lr:0.40000, batch time:0.0312, data time:0.2036
+2022-04-12 00:02:41	Epoch 52 training ends, total 0.36s
+2022-04-12 00:02:41	Epoch 52 testing start
+2022-04-12 00:02:42	Valid Loss: 0.0099175
+2022-04-12 00:02:43	Epoch: 52	Catergory: toothbrush	Pixel-AUC: 0.987412	Image-AUC: 0.825000
+2022-04-12 00:02:43	Epoch 52 testing end, total 1.69s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:43	Epoch 53[32/48]: loss:0.42125, lr:0.40000, batch time:0.0311, data time:0.2002
+2022-04-12 00:02:43	Epoch 53 training ends, total 0.36s
+2022-04-12 00:02:43	Epoch 53 testing start
+2022-04-12 00:02:44	Valid Loss: 0.0096266
+2022-04-12 00:02:45	Epoch: 53	Catergory: toothbrush	Pixel-AUC: 0.987475	Image-AUC: 0.822222
+2022-04-12 00:02:45	Epoch 53 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:45	Epoch 54[32/48]: loss:0.41831, lr:0.40000, batch time:0.0311, data time:0.1998
+2022-04-12 00:02:46	Epoch 54 training ends, total 0.36s
+2022-04-12 00:02:46	Epoch 54 testing start
+2022-04-12 00:02:46	Valid Loss: 0.0096059
+2022-04-12 00:02:47	Epoch: 54	Catergory: toothbrush	Pixel-AUC: 0.987640	Image-AUC: 0.830556
+2022-04-12 00:02:47	Epoch 54 testing end, total 1.69s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:47	Epoch 55[32/48]: loss:0.40960, lr:0.40000, batch time:0.0311, data time:0.2000
+2022-04-12 00:02:48	Epoch 55 training ends, total 0.36s
+2022-04-12 00:02:48	Epoch 55 testing start
+2022-04-12 00:02:48	Valid Loss: 0.0091329
+2022-04-12 00:02:49	Epoch: 55	Catergory: toothbrush	Pixel-AUC: 0.987786	Image-AUC: 0.808333
+2022-04-12 00:02:49	Epoch 55 testing end, total 1.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:49	Epoch 56[32/48]: loss:0.40800, lr:0.40000, batch time:0.0483, data time:0.1999
+2022-04-12 00:02:50	Epoch 56 training ends, total 0.36s
+2022-04-12 00:02:50	Epoch 56 testing start
+2022-04-12 00:02:50	Valid Loss: 0.0087952
+2022-04-12 00:02:51	Epoch: 56	Catergory: toothbrush	Pixel-AUC: 0.987836	Image-AUC: 0.805556
+2022-04-12 00:02:51	Epoch 56 testing end, total 1.69s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:52	Epoch 57[32/48]: loss:0.40288, lr:0.40000, batch time:0.0662, data time:0.2016
+2022-04-12 00:02:52	Epoch 57 training ends, total 0.36s
+2022-04-12 00:02:52	Epoch 57 testing start
+2022-04-12 00:02:52	Valid Loss: 0.0085461
+2022-04-12 00:02:53	Epoch: 57	Catergory: toothbrush	Pixel-AUC: 0.987883	Image-AUC: 0.808333
+2022-04-12 00:02:53	Epoch 57 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:54	Epoch 58[32/48]: loss:0.39887, lr:0.40000, batch time:0.0312, data time:0.1994
+2022-04-12 00:02:54	Epoch 58 training ends, total 0.36s
+2022-04-12 00:02:54	Epoch 58 testing start
+2022-04-12 00:02:54	Valid Loss: 0.0086217
+2022-04-12 00:02:55	Epoch: 58	Catergory: toothbrush	Pixel-AUC: 0.987981	Image-AUC: 0.813889
+2022-04-12 00:02:55	Epoch 58 testing end, total 1.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:55	Epoch 59[32/48]: loss:0.39591, lr:0.40000, batch time:0.0663, data time:0.2020
+2022-04-12 00:02:56	Epoch 59 training ends, total 0.36s
+2022-04-12 00:02:56	Epoch 59 testing start
+2022-04-12 00:02:56	Valid Loss: 0.0077223
+2022-04-12 00:02:57	Epoch: 59	Catergory: toothbrush	Pixel-AUC: 0.987730	Image-AUC: 0.794444
+2022-04-12 00:02:57	Epoch 59 testing end, total 1.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:02:58	Epoch 60[32/48]: loss:0.39438, lr:0.40000, batch time:0.0311, data time:0.1998
+2022-04-12 00:02:58	Epoch 60 training ends, total 0.36s
+2022-04-12 00:02:58	Epoch 60 testing start
+2022-04-12 00:02:58	Valid Loss: 0.0076403
+2022-04-12 00:02:59	Epoch: 60	Catergory: toothbrush	Pixel-AUC: 0.988099	Image-AUC: 0.786111
+2022-04-12 00:02:59	Epoch 60 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:00	Epoch 61[32/48]: loss:0.38904, lr:0.40000, batch time:0.0315, data time:0.2042
+2022-04-12 00:03:00	Epoch 61 training ends, total 0.36s
+2022-04-12 00:03:00	Epoch 61 testing start
+2022-04-12 00:03:00	Valid Loss: 0.0079811
+2022-04-12 00:03:01	Epoch: 61	Catergory: toothbrush	Pixel-AUC: 0.987766	Image-AUC: 0.805556
+2022-04-12 00:03:01	Epoch 61 testing end, total 1.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:01	Epoch 62[32/48]: loss:0.38575, lr:0.40000, batch time:0.0312, data time:0.1985
+2022-04-12 00:03:02	Epoch 62 training ends, total 0.36s
+2022-04-12 00:03:02	Epoch 62 testing start
+2022-04-12 00:03:02	Valid Loss: 0.0085629
+2022-04-12 00:03:03	Epoch: 62	Catergory: toothbrush	Pixel-AUC: 0.988728	Image-AUC: 0.819444
+2022-04-12 00:03:03	Epoch 62 testing end, total 1.52s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:03	Epoch 63[32/48]: loss:0.38512, lr:0.40000, batch time:0.0312, data time:0.1983
+2022-04-12 00:03:03	Epoch 63 training ends, total 0.36s
+2022-04-12 00:03:03	Epoch 63 testing start
+2022-04-12 00:03:04	Valid Loss: 0.0158877
+2022-04-12 00:03:05	Epoch: 63	Catergory: toothbrush	Pixel-AUC: 0.984011	Image-AUC: 0.897222
+2022-04-12 00:03:05	Epoch 63 testing end, total 1.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:05	Epoch 64[32/48]: loss:0.38183, lr:0.40000, batch time:0.0306, data time:0.1997
+2022-04-12 00:03:05	Epoch 64 training ends, total 0.36s
+2022-04-12 00:03:05	Epoch 64 testing start
+2022-04-12 00:03:05	Valid Loss: 0.0092191
+2022-04-12 00:03:07	Epoch: 64	Catergory: toothbrush	Pixel-AUC: 0.987112	Image-AUC: 0.816667
+2022-04-12 00:03:07	Epoch 64 testing end, total 1.54s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:07	Epoch 65[32/48]: loss:0.38094, lr:0.40000, batch time:0.0313, data time:0.2001
+2022-04-12 00:03:07	Epoch 65 training ends, total 0.36s
+2022-04-12 00:03:07	Epoch 65 testing start
+2022-04-12 00:03:07	Valid Loss: 0.0090048
+2022-04-12 00:03:09	Epoch: 65	Catergory: toothbrush	Pixel-AUC: 0.987731	Image-AUC: 0.808333
+2022-04-12 00:03:09	Epoch 65 testing end, total 1.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:09	Epoch 66[32/48]: loss:0.37799, lr:0.40000, batch time:0.0310, data time:0.2001
+2022-04-12 00:03:09	Epoch 66 training ends, total 0.36s
+2022-04-12 00:03:09	Epoch 66 testing start
+2022-04-12 00:03:09	Valid Loss: 0.0069705
+2022-04-12 00:03:11	Epoch: 66	Catergory: toothbrush	Pixel-AUC: 0.988434	Image-AUC: 0.769444
+2022-04-12 00:03:11	Epoch 66 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:11	Epoch 67[32/48]: loss:0.37065, lr:0.40000, batch time:0.0311, data time:0.1995
+2022-04-12 00:03:11	Epoch 67 training ends, total 0.36s
+2022-04-12 00:03:11	Epoch 67 testing start
+2022-04-12 00:03:11	Valid Loss: 0.0067136
+2022-04-12 00:03:13	Epoch: 67	Catergory: toothbrush	Pixel-AUC: 0.988384	Image-AUC: 0.777778
+2022-04-12 00:03:13	Epoch 67 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:13	Epoch 68[32/48]: loss:0.36761, lr:0.40000, batch time:0.0482, data time:0.2039
+2022-04-12 00:03:13	Epoch 68 training ends, total 0.36s
+2022-04-12 00:03:13	Epoch 68 testing start
+2022-04-12 00:03:13	Valid Loss: 0.0070082
+2022-04-12 00:03:15	Epoch: 68	Catergory: toothbrush	Pixel-AUC: 0.988904	Image-AUC: 0.791667
+2022-04-12 00:03:15	Epoch 68 testing end, total 1.52s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:15	Epoch 69[32/48]: loss:0.36417, lr:0.40000, batch time:0.0306, data time:0.1981
+2022-04-12 00:03:15	Epoch 69 training ends, total 0.36s
+2022-04-12 00:03:15	Epoch 69 testing start
+2022-04-12 00:03:15	Valid Loss: 0.0063819
+2022-04-12 00:03:17	Epoch: 69	Catergory: toothbrush	Pixel-AUC: 0.988691	Image-AUC: 0.775000
+2022-04-12 00:03:17	Epoch 69 testing end, total 1.68s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:17	Epoch 70[32/48]: loss:0.36273, lr:0.40000, batch time:0.0543, data time:0.2035
+2022-04-12 00:03:17	Epoch 70 training ends, total 0.37s
+2022-04-12 00:03:17	Epoch 70 testing start
+2022-04-12 00:03:17	Valid Loss: 0.0067580
+2022-04-12 00:03:19	Epoch: 70	Catergory: toothbrush	Pixel-AUC: 0.988877	Image-AUC: 0.788889
+2022-04-12 00:03:19	Epoch 70 testing end, total 1.52s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:19	Epoch 71[32/48]: loss:0.35902, lr:0.40000, batch time:0.0307, data time:0.1992
+2022-04-12 00:03:19	Epoch 71 training ends, total 0.36s
+2022-04-12 00:03:19	Epoch 71 testing start
+2022-04-12 00:03:19	Valid Loss: 0.0064720
+2022-04-12 00:03:21	Epoch: 71	Catergory: toothbrush	Pixel-AUC: 0.988927	Image-AUC: 0.791667
+2022-04-12 00:03:21	Epoch 71 testing end, total 1.52s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:21	Epoch 72[32/48]: loss:0.35576, lr:0.40000, batch time:0.0308, data time:0.1992
+2022-04-12 00:03:21	Epoch 72 training ends, total 0.36s
+2022-04-12 00:03:21	Epoch 72 testing start
+2022-04-12 00:03:21	Valid Loss: 0.0062086
+2022-04-12 00:03:23	Epoch: 72	Catergory: toothbrush	Pixel-AUC: 0.988727	Image-AUC: 0.777778
+2022-04-12 00:03:23	Epoch 72 testing end, total 1.68s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:23	Epoch 73[32/48]: loss:0.35789, lr:0.40000, batch time:0.0310, data time:0.2005
+2022-04-12 00:03:23	Epoch 73 training ends, total 0.36s
+2022-04-12 00:03:23	Epoch 73 testing start
+2022-04-12 00:03:23	Valid Loss: 0.0058585
+2022-04-12 00:03:25	Epoch: 73	Catergory: toothbrush	Pixel-AUC: 0.988839	Image-AUC: 0.772222
+2022-04-12 00:03:25	Epoch 73 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:25	Epoch 74[32/48]: loss:0.35544, lr:0.40000, batch time:0.0476, data time:0.1978
+2022-04-12 00:03:25	Epoch 74 training ends, total 0.36s
+2022-04-12 00:03:25	Epoch 74 testing start
+2022-04-12 00:03:25	Valid Loss: 0.0057991
+2022-04-12 00:03:27	Epoch: 74	Catergory: toothbrush	Pixel-AUC: 0.988860	Image-AUC: 0.788889
+2022-04-12 00:03:27	Epoch 74 testing end, total 1.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:27	Epoch 75[32/48]: loss:0.34833, lr:0.40000, batch time:0.0311, data time:0.1985
+2022-04-12 00:03:27	Epoch 75 training ends, total 0.36s
+2022-04-12 00:03:27	Epoch 75 testing start
+2022-04-12 00:03:27	Valid Loss: 0.0058943
+2022-04-12 00:03:29	Epoch: 75	Catergory: toothbrush	Pixel-AUC: 0.989047	Image-AUC: 0.783333
+2022-04-12 00:03:29	Epoch 75 testing end, total 1.52s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:29	Epoch 76[32/48]: loss:0.35006, lr:0.40000, batch time:0.0476, data time:0.1983
+2022-04-12 00:03:29	Epoch 76 training ends, total 0.36s
+2022-04-12 00:03:29	Epoch 76 testing start
+2022-04-12 00:03:29	Valid Loss: 0.0054638
+2022-04-12 00:03:31	Epoch: 76	Catergory: toothbrush	Pixel-AUC: 0.988569	Image-AUC: 0.766667
+2022-04-12 00:03:31	Epoch 76 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:31	Epoch 77[32/48]: loss:0.34590, lr:0.40000, batch time:0.0334, data time:0.2000
+2022-04-12 00:03:31	Epoch 77 training ends, total 0.37s
+2022-04-12 00:03:31	Epoch 77 testing start
+2022-04-12 00:03:31	Valid Loss: 0.0056089
+2022-04-12 00:03:32	Epoch: 77	Catergory: toothbrush	Pixel-AUC: 0.988932	Image-AUC: 0.775000
+2022-04-12 00:03:32	Epoch 77 testing end, total 1.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:33	Epoch 78[32/48]: loss:0.34497, lr:0.40000, batch time:0.0312, data time:0.1994
+2022-04-12 00:03:33	Epoch 78 training ends, total 0.36s
+2022-04-12 00:03:33	Epoch 78 testing start
+2022-04-12 00:03:33	Valid Loss: 0.0053932
+2022-04-12 00:03:34	Epoch: 78	Catergory: toothbrush	Pixel-AUC: 0.989014	Image-AUC: 0.788889
+2022-04-12 00:03:34	Epoch 78 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:35	Epoch 79[32/48]: loss:0.34083, lr:0.40000, batch time:0.0312, data time:0.2057
+2022-04-12 00:03:35	Epoch 79 training ends, total 0.37s
+2022-04-12 00:03:35	Epoch 79 testing start
+2022-04-12 00:03:35	Valid Loss: 0.0052864
+2022-04-12 00:03:37	Epoch: 79	Catergory: toothbrush	Pixel-AUC: 0.989007	Image-AUC: 0.791667
+2022-04-12 00:03:37	Epoch 79 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:37	Epoch 80[32/48]: loss:0.33869, lr:0.40000, batch time:0.0308, data time:0.2001
+2022-04-12 00:03:37	Epoch 80 training ends, total 0.36s
+2022-04-12 00:03:37	Epoch 80 testing start
+2022-04-12 00:03:37	Valid Loss: 0.0049443
+2022-04-12 00:03:39	Epoch: 80	Catergory: toothbrush	Pixel-AUC: 0.988896	Image-AUC: 0.783333
+2022-04-12 00:03:39	Epoch 80 testing end, total 1.67s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:39	Epoch 81[32/48]: loss:0.33705, lr:0.40000, batch time:0.0484, data time:0.2026
+2022-04-12 00:03:39	Epoch 81 training ends, total 0.36s
+2022-04-12 00:03:39	Epoch 81 testing start
+2022-04-12 00:03:39	Valid Loss: 0.0049365
+2022-04-12 00:03:41	Epoch: 81	Catergory: toothbrush	Pixel-AUC: 0.988842	Image-AUC: 0.780556
+2022-04-12 00:03:41	Epoch 81 testing end, total 1.69s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:41	Epoch 82[32/48]: loss:0.33155, lr:0.40000, batch time:0.0313, data time:0.1987
+2022-04-12 00:03:41	Epoch 82 training ends, total 0.36s
+2022-04-12 00:03:41	Epoch 82 testing start
+2022-04-12 00:03:41	Valid Loss: 0.0048309
+2022-04-12 00:03:43	Epoch: 82	Catergory: toothbrush	Pixel-AUC: 0.988935	Image-AUC: 0.791667
+2022-04-12 00:03:43	Epoch 82 testing end, total 1.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:43	Epoch 83[32/48]: loss:0.33477, lr:0.40000, batch time:0.0665, data time:0.1981
+2022-04-12 00:03:43	Epoch 83 training ends, total 0.36s
+2022-04-12 00:03:43	Epoch 83 testing start
+2022-04-12 00:03:43	Valid Loss: 0.0049494
+2022-04-12 00:03:45	Epoch: 83	Catergory: toothbrush	Pixel-AUC: 0.989104	Image-AUC: 0.783333
+2022-04-12 00:03:45	Epoch 83 testing end, total 1.54s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:45	Epoch 84[32/48]: loss:0.33153, lr:0.40000, batch time:0.0667, data time:0.1987
+2022-04-12 00:03:45	Epoch 84 training ends, total 0.36s
+2022-04-12 00:03:45	Epoch 84 testing start
+2022-04-12 00:03:45	Valid Loss: 0.0046907
+2022-04-12 00:03:47	Epoch: 84	Catergory: toothbrush	Pixel-AUC: 0.988952	Image-AUC: 0.794444
+2022-04-12 00:03:47	Epoch 84 testing end, total 1.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:47	Epoch 85[32/48]: loss:0.33099, lr:0.40000, batch time:0.0668, data time:0.2015
+2022-04-12 00:03:47	Epoch 85 training ends, total 0.36s
+2022-04-12 00:03:47	Epoch 85 testing start
+2022-04-12 00:03:47	Valid Loss: 0.0048136
+2022-04-12 00:03:49	Epoch: 85	Catergory: toothbrush	Pixel-AUC: 0.989188	Image-AUC: 0.788889
+2022-04-12 00:03:49	Epoch 85 testing end, total 1.55s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:49	Epoch 86[32/48]: loss:0.33015, lr:0.40000, batch time:0.0663, data time:0.1989
+2022-04-12 00:03:49	Epoch 86 training ends, total 0.36s
+2022-04-12 00:03:49	Epoch 86 testing start
+2022-04-12 00:03:49	Valid Loss: 0.0044054
+2022-04-12 00:03:51	Epoch: 86	Catergory: toothbrush	Pixel-AUC: 0.988772	Image-AUC: 0.769444
+2022-04-12 00:03:51	Epoch 86 testing end, total 1.69s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:51	Epoch 87[32/48]: loss:0.32896, lr:0.40000, batch time:0.0310, data time:0.2001
+2022-04-12 00:03:51	Epoch 87 training ends, total 0.36s
+2022-04-12 00:03:51	Epoch 87 testing start
+2022-04-12 00:03:51	Valid Loss: 0.0044563
+2022-04-12 00:03:52	Epoch: 87	Catergory: toothbrush	Pixel-AUC: 0.988859	Image-AUC: 0.780556
+2022-04-12 00:03:52	Epoch 87 testing end, total 1.55s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:53	Epoch 88[32/48]: loss:0.32576, lr:0.40000, batch time:0.0317, data time:0.1994
+2022-04-12 00:03:53	Epoch 88 training ends, total 0.37s
+2022-04-12 00:03:53	Epoch 88 testing start
+2022-04-12 00:03:53	Valid Loss: 0.0046975
+2022-04-12 00:03:54	Epoch: 88	Catergory: toothbrush	Pixel-AUC: 0.988879	Image-AUC: 0.788889
+2022-04-12 00:03:54	Epoch 88 testing end, total 1.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:55	Epoch 89[32/48]: loss:0.32191, lr:0.40000, batch time:0.0667, data time:0.1989
+2022-04-12 00:03:55	Epoch 89 training ends, total 0.36s
+2022-04-12 00:03:55	Epoch 89 testing start
+2022-04-12 00:03:55	Valid Loss: 0.0042173
+2022-04-12 00:03:56	Epoch: 89	Catergory: toothbrush	Pixel-AUC: 0.988903	Image-AUC: 0.783333
+2022-04-12 00:03:56	Epoch 89 testing end, total 1.69s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:57	Epoch 90[32/48]: loss:0.32241, lr:0.40000, batch time:0.0664, data time:0.1981
+2022-04-12 00:03:57	Epoch 90 training ends, total 0.36s
+2022-04-12 00:03:57	Epoch 90 testing start
+2022-04-12 00:03:57	Valid Loss: 0.0042525
+2022-04-12 00:03:58	Epoch: 90	Catergory: toothbrush	Pixel-AUC: 0.988895	Image-AUC: 0.783333
+2022-04-12 00:03:58	Epoch 90 testing end, total 1.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:03:59	Epoch 91[32/48]: loss:0.32121, lr:0.40000, batch time:0.0311, data time:0.1998
+2022-04-12 00:03:59	Epoch 91 training ends, total 0.36s
+2022-04-12 00:03:59	Epoch 91 testing start
+2022-04-12 00:03:59	Valid Loss: 0.0044403
+2022-04-12 00:04:00	Epoch: 91	Catergory: toothbrush	Pixel-AUC: 0.989140	Image-AUC: 0.783333
+2022-04-12 00:04:00	Epoch 91 testing end, total 1.54s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:04:00	Epoch 92[32/48]: loss:0.31834, lr:0.40000, batch time:0.0664, data time:0.1990
+2022-04-12 00:04:01	Epoch 92 training ends, total 0.36s
+2022-04-12 00:04:01	Epoch 92 testing start
+2022-04-12 00:04:01	Valid Loss: 0.0041754
+2022-04-12 00:04:02	Epoch: 92	Catergory: toothbrush	Pixel-AUC: 0.989117	Image-AUC: 0.786111
+2022-04-12 00:04:02	Epoch 92 testing end, total 1.68s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:04:02	Epoch 93[32/48]: loss:0.31811, lr:0.40000, batch time:0.0313, data time:0.1987
+2022-04-12 00:04:03	Epoch 93 training ends, total 0.36s
+2022-04-12 00:04:03	Epoch 93 testing start
+2022-04-12 00:04:03	Valid Loss: 0.0041142
+2022-04-12 00:04:04	Epoch: 93	Catergory: toothbrush	Pixel-AUC: 0.988973	Image-AUC: 0.788889
+2022-04-12 00:04:04	Epoch 93 testing end, total 1.69s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:04:05	Epoch 94[32/48]: loss:0.31603, lr:0.40000, batch time:0.0484, data time:0.2016
+2022-04-12 00:04:05	Epoch 94 training ends, total 0.36s
+2022-04-12 00:04:05	Epoch 94 testing start
+2022-04-12 00:04:05	Valid Loss: 0.0041368
+2022-04-12 00:04:06	Epoch: 94	Catergory: toothbrush	Pixel-AUC: 0.989136	Image-AUC: 0.769444
+2022-04-12 00:04:06	Epoch 94 testing end, total 1.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:04:06	Epoch 95[32/48]: loss:0.31452, lr:0.40000, batch time:0.0310, data time:0.1995
+2022-04-12 00:04:07	Epoch 95 training ends, total 0.36s
+2022-04-12 00:04:07	Epoch 95 testing start
+2022-04-12 00:04:07	Valid Loss: 0.0039016
+2022-04-12 00:04:08	Epoch: 95	Catergory: toothbrush	Pixel-AUC: 0.988996	Image-AUC: 0.777778
+2022-04-12 00:04:08	Epoch 95 testing end, total 1.69s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:04:09	Epoch 96[32/48]: loss:0.31354, lr:0.40000, batch time:0.0671, data time:0.1988
+2022-04-12 00:04:09	Epoch 96 training ends, total 0.36s
+2022-04-12 00:04:09	Epoch 96 testing start
+2022-04-12 00:04:09	Valid Loss: 0.0039194
+2022-04-12 00:04:10	Epoch: 96	Catergory: toothbrush	Pixel-AUC: 0.989066	Image-AUC: 0.780556
+2022-04-12 00:04:10	Epoch 96 testing end, total 1.54s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:04:10	Epoch 97[32/48]: loss:0.30879, lr:0.40000, batch time:0.0312, data time:0.1990
+2022-04-12 00:04:11	Epoch 97 training ends, total 0.36s
+2022-04-12 00:04:11	Epoch 97 testing start
+2022-04-12 00:04:11	Valid Loss: 0.0038071
+2022-04-12 00:04:12	Epoch: 97	Catergory: toothbrush	Pixel-AUC: 0.988881	Image-AUC: 0.772222
+2022-04-12 00:04:12	Epoch 97 testing end, total 1.68s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:04:12	Epoch 98[32/48]: loss:0.31148, lr:0.40000, batch time:0.0667, data time:0.1987
+2022-04-12 00:04:13	Epoch 98 training ends, total 0.36s
+2022-04-12 00:04:13	Epoch 98 testing start
+2022-04-12 00:04:13	Valid Loss: 0.0037727
+2022-04-12 00:04:14	Epoch: 98	Catergory: toothbrush	Pixel-AUC: 0.989018	Image-AUC: 0.772222
+2022-04-12 00:04:14	Epoch 98 testing end, total 1.69s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-12 00:04:14	Epoch 99[32/48]: loss:0.30648, lr:0.40000, batch time:0.0312, data time:0.1987
+2022-04-12 00:04:15	Epoch 99 training ends, total 0.36s
+2022-04-12 00:04:15	Epoch 99 testing start
+2022-04-12 00:04:15	Valid Loss: 0.0038801
+2022-04-12 00:04:16	Epoch: 99	Catergory: toothbrush	Pixel-AUC: 0.989077	Image-AUC: 0.780556
+2022-04-12 00:04:16	Epoch 99 testing end, total 1.52s

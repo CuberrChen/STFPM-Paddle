@@ -1,0 +1,1103 @@
+/home/aistudio/STFPM-main
+W0411 22:32:55.216034 32670 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0411 22:32:55.221380 32670 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:33:18	Epoch 0[32/197]: loss:3.39255, lr:0.40000, batch time:0.0937, data time:0.2121
+2022-04-11 22:33:19	Epoch 0[96/197]: loss:3.20027, lr:0.40000, batch time:0.0697, data time:0.1751
+2022-04-11 22:33:19	Epoch 0[160/197]: loss:2.90737, lr:0.40000, batch time:0.0597, data time:0.1748
+2022-04-11 22:33:19	Epoch 0[224/197]: loss:2.47711, lr:0.40000, batch time:0.0248, data time:0.0113
+2022-04-11 22:33:19	Epoch 0 training ends, total 1.54s
+2022-04-11 22:33:19	Epoch 0 testing start
+2022-04-11 22:33:20	Valid Loss: 2.7970791
+2022-04-11 22:33:23	Epoch: 0	Catergory: wood	Pixel-AUC: 0.324526	Image-AUC: 0.744737
+2022-04-11 22:33:23	Epoch 0 testing end, total 3.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:33:23	Epoch 1[32/197]: loss:2.26334, lr:0.40000, batch time:0.1288, data time:0.2288
+2022-04-11 22:33:24	Epoch 1[96/197]: loss:1.92267, lr:0.40000, batch time:0.0340, data time:0.1936
+2022-04-11 22:33:24	Epoch 1[160/197]: loss:1.68299, lr:0.40000, batch time:0.0351, data time:0.1932
+2022-04-11 22:33:25	Epoch 1[224/197]: loss:1.47186, lr:0.40000, batch time:0.0275, data time:0.0005
+2022-04-11 22:33:25	Epoch 1 training ends, total 1.77s
+2022-04-11 22:33:25	Epoch 1 testing start
+2022-04-11 22:33:25	Valid Loss: 1.6400007
+2022-04-11 22:33:28	Epoch: 1	Catergory: wood	Pixel-AUC: 0.567574	Image-AUC: 0.803509
+2022-04-11 22:33:28	Epoch 1 testing end, total 3.64s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:33:29	Epoch 2[32/197]: loss:1.50008, lr:0.40000, batch time:0.0669, data time:0.2033
+2022-04-11 22:33:29	Epoch 2[96/197]: loss:1.34591, lr:0.40000, batch time:0.0665, data time:0.1765
+2022-04-11 22:33:30	Epoch 2[160/197]: loss:1.27195, lr:0.40000, batch time:0.0669, data time:0.1757
+2022-04-11 22:33:30	Epoch 2[224/197]: loss:1.15100, lr:0.40000, batch time:0.0221, data time:0.0075
+2022-04-11 22:33:30	Epoch 2 training ends, total 1.52s
+2022-04-11 22:33:30	Epoch 2 testing start
+2022-04-11 22:33:30	Valid Loss: 0.2379441
+2022-04-11 22:33:33	Epoch: 2	Catergory: wood	Pixel-AUC: 0.856310	Image-AUC: 0.886842
+2022-04-11 22:33:33	Epoch 2 testing end, total 3.54s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:33:34	Epoch 3[32/197]: loss:1.15941, lr:0.40000, batch time:0.0916, data time:0.2078
+2022-04-11 22:33:34	Epoch 3[96/197]: loss:1.11102, lr:0.40000, batch time:0.0867, data time:0.2259
+2022-04-11 22:33:35	Epoch 3[160/197]: loss:1.05510, lr:0.40000, batch time:0.0885, data time:0.1765
+2022-04-11 22:33:35	Epoch 3[224/197]: loss:1.03828, lr:0.40000, batch time:0.0203, data time:0.0074
+2022-04-11 22:33:35	Epoch 3 training ends, total 1.67s
+2022-04-11 22:33:35	Epoch 3 testing start
+2022-04-11 22:33:35	Valid Loss: 0.0574193
+2022-04-11 22:33:39	Epoch: 3	Catergory: wood	Pixel-AUC: 0.943618	Image-AUC: 0.986842
+2022-04-11 22:33:39	Epoch 3 testing end, total 3.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:33:39	Epoch 4[32/197]: loss:1.01414, lr:0.40000, batch time:0.0681, data time:0.2021
+2022-04-11 22:33:40	Epoch 4[96/197]: loss:0.99780, lr:0.40000, batch time:0.0673, data time:0.1738
+2022-04-11 22:33:40	Epoch 4[160/197]: loss:0.94632, lr:0.40000, batch time:0.0671, data time:0.1744
+2022-04-11 22:33:40	Epoch 4[224/197]: loss:0.91457, lr:0.40000, batch time:0.0203, data time:0.0068
+2022-04-11 22:33:40	Epoch 4 training ends, total 1.50s
+2022-04-11 22:33:40	Epoch 4 testing start
+2022-04-11 22:33:41	Valid Loss: 0.0907442
+2022-04-11 22:33:44	Epoch: 4	Catergory: wood	Pixel-AUC: 0.900701	Image-AUC: 0.953509
+2022-04-11 22:33:44	Epoch 4 testing end, total 3.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:33:44	Epoch 5[32/197]: loss:0.92695, lr:0.40000, batch time:0.0863, data time:0.2038
+2022-04-11 22:33:45	Epoch 5[96/197]: loss:0.89172, lr:0.40000, batch time:0.0768, data time:0.1778
+2022-04-11 22:33:45	Epoch 5[160/197]: loss:0.90155, lr:0.40000, batch time:0.0663, data time:0.1731
+2022-04-11 22:33:45	Epoch 5[224/197]: loss:0.88924, lr:0.40000, batch time:0.0207, data time:0.0424
+2022-04-11 22:33:45	Epoch 5 training ends, total 1.56s
+2022-04-11 22:33:45	Epoch 5 testing start
+2022-04-11 22:33:46	Valid Loss: 0.0283964
+2022-04-11 22:33:49	Epoch: 5	Catergory: wood	Pixel-AUC: 0.960022	Image-AUC: 0.992105
+2022-04-11 22:33:49	Epoch 5 testing end, total 3.60s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:33:49	Epoch 6[32/197]: loss:0.85800, lr:0.40000, batch time:0.0802, data time:0.2457
+2022-04-11 22:33:50	Epoch 6[96/197]: loss:0.84970, lr:0.40000, batch time:0.0720, data time:0.2168
+2022-04-11 22:33:51	Epoch 6[160/197]: loss:0.83178, lr:0.40000, batch time:0.0667, data time:0.2223
+2022-04-11 22:33:51	Epoch 6[224/197]: loss:0.87062, lr:0.40000, batch time:0.0193, data time:0.0223
+2022-04-11 22:33:51	Epoch 6 training ends, total 1.87s
+2022-04-11 22:33:51	Epoch 6 testing start
+2022-04-11 22:33:51	Valid Loss: 0.0428259
+2022-04-11 22:33:55	Epoch: 6	Catergory: wood	Pixel-AUC: 0.927455	Image-AUC: 0.955263
+2022-04-11 22:33:55	Epoch 6 testing end, total 3.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:33:55	Epoch 7[32/197]: loss:0.82959, lr:0.40000, batch time:0.0683, data time:0.2018
+2022-04-11 22:33:55	Epoch 7[96/197]: loss:0.82163, lr:0.40000, batch time:0.0673, data time:0.1722
+2022-04-11 22:33:56	Epoch 7[160/197]: loss:0.78403, lr:0.40000, batch time:0.0674, data time:0.1748
+2022-04-11 22:33:56	Epoch 7[224/197]: loss:0.84103, lr:0.40000, batch time:0.0219, data time:0.0090
+2022-04-11 22:33:56	Epoch 7 training ends, total 1.52s
+2022-04-11 22:33:56	Epoch 7 testing start
+2022-04-11 22:33:56	Valid Loss: 0.0186065
+2022-04-11 22:34:00	Epoch: 7	Catergory: wood	Pixel-AUC: 0.958550	Image-AUC: 0.994737
+2022-04-11 22:34:00	Epoch 7 testing end, total 3.62s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:34:00	Epoch 8[32/197]: loss:0.78055, lr:0.40000, batch time:0.0876, data time:0.2061
+2022-04-11 22:34:01	Epoch 8[96/197]: loss:0.79814, lr:0.40000, batch time:0.0898, data time:0.1778
+2022-04-11 22:34:01	Epoch 8[160/197]: loss:0.77105, lr:0.40000, batch time:0.0894, data time:0.1775
+2022-04-11 22:34:01	Epoch 8[224/197]: loss:0.77305, lr:0.40000, batch time:0.0201, data time:0.0071
+2022-04-11 22:34:01	Epoch 8 training ends, total 1.65s
+2022-04-11 22:34:01	Epoch 8 testing start
+2022-04-11 22:34:02	Valid Loss: 0.0161368
+2022-04-11 22:34:05	Epoch: 8	Catergory: wood	Pixel-AUC: 0.950478	Image-AUC: 0.992982
+2022-04-11 22:34:05	Epoch 8 testing end, total 3.62s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:34:05	Epoch 9[32/197]: loss:0.77240, lr:0.40000, batch time:0.0671, data time:0.2022
+2022-04-11 22:34:06	Epoch 9[96/197]: loss:0.74945, lr:0.40000, batch time:0.0686, data time:0.1728
+2022-04-11 22:34:06	Epoch 9[160/197]: loss:0.74677, lr:0.40000, batch time:0.0673, data time:0.1730
+2022-04-11 22:34:07	Epoch 9[224/197]: loss:0.75836, lr:0.40000, batch time:0.0228, data time:0.0060
+2022-04-11 22:34:07	Epoch 9 training ends, total 1.51s
+2022-04-11 22:34:07	Epoch 9 testing start
+2022-04-11 22:34:07	Valid Loss: 0.0231489
+2022-04-11 22:34:10	Epoch: 9	Catergory: wood	Pixel-AUC: 0.935722	Image-AUC: 0.964035
+2022-04-11 22:34:10	Epoch 9 testing end, total 3.69s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:34:11	Epoch 10[32/197]: loss:0.75418, lr:0.40000, batch time:0.0893, data time:0.2029
+2022-04-11 22:34:11	Epoch 10[96/197]: loss:0.72455, lr:0.40000, batch time:0.0730, data time:0.1748
+2022-04-11 22:34:11	Epoch 10[160/197]: loss:0.72628, lr:0.40000, batch time:0.0747, data time:0.1731
+2022-04-11 22:34:12	Epoch 10[224/197]: loss:0.75382, lr:0.40000, batch time:0.0224, data time:0.0065
+2022-04-11 22:34:12	Epoch 10 training ends, total 1.53s
+2022-04-11 22:34:12	Epoch 10 testing start
+2022-04-11 22:34:12	Valid Loss: 0.0133284
+2022-04-11 22:34:15	Epoch: 10	Catergory: wood	Pixel-AUC: 0.952018	Image-AUC: 0.992105
+2022-04-11 22:34:15	Epoch 10 testing end, total 3.64s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:34:16	Epoch 11[32/197]: loss:0.70742, lr:0.40000, batch time:0.0772, data time:0.2211
+2022-04-11 22:34:16	Epoch 11[96/197]: loss:0.71548, lr:0.40000, batch time:0.0931, data time:0.2338
+2022-04-11 22:34:17	Epoch 11[160/197]: loss:0.71377, lr:0.40000, batch time:0.0939, data time:0.1895
+2022-04-11 22:34:17	Epoch 11[224/197]: loss:0.71124, lr:0.40000, batch time:0.0194, data time:0.0068
+2022-04-11 22:34:17	Epoch 11 training ends, total 1.74s
+2022-04-11 22:34:17	Epoch 11 testing start
+2022-04-11 22:34:18	Valid Loss: 0.0132321
+2022-04-11 22:34:21	Epoch: 11	Catergory: wood	Pixel-AUC: 0.949959	Image-AUC: 0.985088
+2022-04-11 22:34:21	Epoch 11 testing end, total 3.64s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:34:21	Epoch 12[32/197]: loss:0.71953, lr:0.40000, batch time:0.0675, data time:0.2027
+2022-04-11 22:34:21	Epoch 12[96/197]: loss:0.69116, lr:0.40000, batch time:0.0313, data time:0.1740
+2022-04-11 22:34:22	Epoch 12[160/197]: loss:0.68466, lr:0.40000, batch time:0.0688, data time:0.1760
+2022-04-11 22:34:22	Epoch 12[224/197]: loss:0.69596, lr:0.40000, batch time:0.0218, data time:0.0075
+2022-04-11 22:34:22	Epoch 12 training ends, total 1.51s
+2022-04-11 22:34:22	Epoch 12 testing start
+2022-04-11 22:34:23	Valid Loss: 0.0117347
+2022-04-11 22:34:26	Epoch: 12	Catergory: wood	Pixel-AUC: 0.942343	Image-AUC: 0.993860
+2022-04-11 22:34:26	Epoch 12 testing end, total 3.58s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:34:26	Epoch 13[32/197]: loss:0.69187, lr:0.40000, batch time:0.0409, data time:0.2059
+2022-04-11 22:34:27	Epoch 13[96/197]: loss:0.67617, lr:0.40000, batch time:0.0877, data time:0.1775
+2022-04-11 22:34:27	Epoch 13[160/197]: loss:0.67721, lr:0.40000, batch time:0.0825, data time:0.1975
+2022-04-11 22:34:28	Epoch 13[224/197]: loss:0.66762, lr:0.40000, batch time:0.0207, data time:0.0059
+2022-04-11 22:34:28	Epoch 13 training ends, total 1.66s
+2022-04-11 22:34:28	Epoch 13 testing start
+2022-04-11 22:34:28	Valid Loss: 0.0119620
+2022-04-11 22:34:31	Epoch: 13	Catergory: wood	Pixel-AUC: 0.947832	Image-AUC: 0.983333
+2022-04-11 22:34:31	Epoch 13 testing end, total 3.51s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:34:31	Epoch 14[32/197]: loss:0.66468, lr:0.40000, batch time:0.0691, data time:0.2094
+2022-04-11 22:34:32	Epoch 14[96/197]: loss:0.66952, lr:0.40000, batch time:0.0675, data time:0.1749
+2022-04-11 22:34:32	Epoch 14[160/197]: loss:0.65012, lr:0.40000, batch time:0.0670, data time:0.1790
+2022-04-11 22:34:33	Epoch 14[224/197]: loss:0.64673, lr:0.40000, batch time:0.0212, data time:0.0074
+2022-04-11 22:34:33	Epoch 14 training ends, total 1.53s
+2022-04-11 22:34:33	Epoch 14 testing start
+2022-04-11 22:34:33	Valid Loss: 0.0111090
+2022-04-11 22:34:36	Epoch: 14	Catergory: wood	Pixel-AUC: 0.946820	Image-AUC: 0.990351
+2022-04-11 22:34:36	Epoch 14 testing end, total 3.86s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:34:37	Epoch 15[32/197]: loss:0.66754, lr:0.40000, batch time:0.0885, data time:0.2042
+2022-04-11 22:34:37	Epoch 15[96/197]: loss:0.67309, lr:0.40000, batch time:0.0863, data time:0.2075
+2022-04-11 22:34:38	Epoch 15[160/197]: loss:0.65627, lr:0.40000, batch time:0.0666, data time:0.1903
+2022-04-11 22:34:38	Epoch 15[224/197]: loss:0.65695, lr:0.40000, batch time:0.0216, data time:0.0083
+2022-04-11 22:34:38	Epoch 15 training ends, total 1.58s
+2022-04-11 22:34:38	Epoch 15 testing start
+2022-04-11 22:34:38	Valid Loss: 0.0102352
+2022-04-11 22:34:42	Epoch: 15	Catergory: wood	Pixel-AUC: 0.945023	Image-AUC: 0.992105
+2022-04-11 22:34:42	Epoch 15 testing end, total 3.64s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:34:42	Epoch 16[32/197]: loss:0.65049, lr:0.40000, batch time:0.0338, data time:0.2060
+2022-04-11 22:34:42	Epoch 16[96/197]: loss:0.65339, lr:0.40000, batch time:0.0870, data time:0.2434
+2022-04-11 22:34:43	Epoch 16[160/197]: loss:0.64525, lr:0.40000, batch time:0.0534, data time:0.2040
+2022-04-11 22:34:43	Epoch 16[224/197]: loss:0.65966, lr:0.40000, batch time:0.0318, data time:0.0652
+2022-04-11 22:34:43	Epoch 16 training ends, total 1.77s
+2022-04-11 22:34:43	Epoch 16 testing start
+2022-04-11 22:34:44	Valid Loss: 0.0118132
+2022-04-11 22:34:47	Epoch: 16	Catergory: wood	Pixel-AUC: 0.943473	Image-AUC: 0.984211
+2022-04-11 22:34:47	Epoch 16 testing end, total 3.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:34:47	Epoch 17[32/197]: loss:0.63299, lr:0.40000, batch time:0.0667, data time:0.2055
+2022-04-11 22:34:48	Epoch 17[96/197]: loss:0.64678, lr:0.40000, batch time:0.0672, data time:0.1734
+2022-04-11 22:34:48	Epoch 17[160/197]: loss:0.63772, lr:0.40000, batch time:0.0669, data time:0.1738
+2022-04-11 22:34:48	Epoch 17[224/197]: loss:0.62874, lr:0.40000, batch time:0.0213, data time:0.0084
+2022-04-11 22:34:48	Epoch 17 training ends, total 1.52s
+2022-04-11 22:34:48	Epoch 17 testing start
+2022-04-11 22:34:49	Valid Loss: 0.0089332
+2022-04-11 22:34:52	Epoch: 17	Catergory: wood	Pixel-AUC: 0.950034	Image-AUC: 0.992105
+2022-04-11 22:34:52	Epoch 17 testing end, total 3.63s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:34:52	Epoch 18[32/197]: loss:0.61769, lr:0.40000, batch time:0.0679, data time:0.2158
+2022-04-11 22:34:53	Epoch 18[96/197]: loss:0.62139, lr:0.40000, batch time:0.0905, data time:0.1754
+2022-04-11 22:34:53	Epoch 18[160/197]: loss:0.62736, lr:0.40000, batch time:0.0884, data time:0.1772
+2022-04-11 22:34:54	Epoch 18[224/197]: loss:0.60112, lr:0.40000, batch time:0.0202, data time:0.0561
+2022-04-11 22:34:54	Epoch 18 training ends, total 1.62s
+2022-04-11 22:34:54	Epoch 18 testing start
+2022-04-11 22:34:54	Valid Loss: 0.0081786
+2022-04-11 22:34:57	Epoch: 18	Catergory: wood	Pixel-AUC: 0.950933	Image-AUC: 0.991228
+2022-04-11 22:34:57	Epoch 18 testing end, total 3.62s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:34:58	Epoch 19[32/197]: loss:0.61358, lr:0.40000, batch time:0.0676, data time:0.2011
+2022-04-11 22:34:58	Epoch 19[96/197]: loss:0.60117, lr:0.40000, batch time:0.0313, data time:0.1756
+2022-04-11 22:34:59	Epoch 19[160/197]: loss:0.61772, lr:0.40000, batch time:0.0665, data time:0.1738
+2022-04-11 22:34:59	Epoch 19[224/197]: loss:0.64440, lr:0.40000, batch time:0.0202, data time:0.0072
+2022-04-11 22:34:59	Epoch 19 training ends, total 1.51s
+2022-04-11 22:34:59	Epoch 19 testing start
+2022-04-11 22:34:59	Valid Loss: 0.0078350
+2022-04-11 22:35:03	Epoch: 19	Catergory: wood	Pixel-AUC: 0.946712	Image-AUC: 0.992982
+2022-04-11 22:35:03	Epoch 19 testing end, total 3.77s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:35:03	Epoch 20[32/197]: loss:0.60312, lr:0.40000, batch time:0.0858, data time:0.2057
+2022-04-11 22:35:03	Epoch 20[96/197]: loss:0.63398, lr:0.40000, batch time:0.0888, data time:0.1774
+2022-04-11 22:35:04	Epoch 20[160/197]: loss:0.60193, lr:0.40000, batch time:0.0390, data time:0.2237
+2022-04-11 22:35:04	Epoch 20[224/197]: loss:0.56559, lr:0.40000, batch time:0.0192, data time:0.0417
+2022-04-11 22:35:04	Epoch 20 training ends, total 1.61s
+2022-04-11 22:35:04	Epoch 20 testing start
+2022-04-11 22:35:05	Valid Loss: 0.0077787
+2022-04-11 22:35:08	Epoch: 20	Catergory: wood	Pixel-AUC: 0.946679	Image-AUC: 0.992982
+2022-04-11 22:35:08	Epoch 20 testing end, total 3.60s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:35:08	Epoch 21[32/197]: loss:0.59104, lr:0.40000, batch time:0.0694, data time:0.2054
+2022-04-11 22:35:09	Epoch 21[96/197]: loss:0.61275, lr:0.40000, batch time:0.0965, data time:0.1735
+2022-04-11 22:35:09	Epoch 21[160/197]: loss:0.60425, lr:0.40000, batch time:0.0799, data time:0.1882
+2022-04-11 22:35:10	Epoch 21[224/197]: loss:0.58514, lr:0.40000, batch time:0.0228, data time:0.0580
+2022-04-11 22:35:10	Epoch 21 training ends, total 1.70s
+2022-04-11 22:35:10	Epoch 21 testing start
+2022-04-11 22:35:10	Valid Loss: 0.0094537
+2022-04-11 22:35:13	Epoch: 21	Catergory: wood	Pixel-AUC: 0.944466	Image-AUC: 0.967544
+2022-04-11 22:35:13	Epoch 21 testing end, total 3.61s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:35:13	Epoch 22[32/197]: loss:0.58948, lr:0.40000, batch time:0.0685, data time:0.2015
+2022-04-11 22:35:14	Epoch 22[96/197]: loss:0.59218, lr:0.40000, batch time:0.0672, data time:0.1730
+2022-04-11 22:35:14	Epoch 22[160/197]: loss:0.59616, lr:0.40000, batch time:0.0674, data time:0.1741
+2022-04-11 22:35:15	Epoch 22[224/197]: loss:0.56666, lr:0.40000, batch time:0.0207, data time:0.0070
+2022-04-11 22:35:15	Epoch 22 training ends, total 1.50s
+2022-04-11 22:35:15	Epoch 22 testing start
+2022-04-11 22:35:15	Valid Loss: 0.0073244
+2022-04-11 22:35:18	Epoch: 22	Catergory: wood	Pixel-AUC: 0.951408	Image-AUC: 0.991228
+2022-04-11 22:35:18	Epoch 22 testing end, total 3.60s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:35:19	Epoch 23[32/197]: loss:0.60569, lr:0.40000, batch time:0.0779, data time:0.2356
+2022-04-11 22:35:19	Epoch 23[96/197]: loss:0.58606, lr:0.40000, batch time:0.0661, data time:0.2082
+2022-04-11 22:35:20	Epoch 23[160/197]: loss:0.58246, lr:0.40000, batch time:0.0388, data time:0.1833
+2022-04-11 22:35:20	Epoch 23[224/197]: loss:0.57050, lr:0.40000, batch time:0.0197, data time:0.0070
+2022-04-11 22:35:20	Epoch 23 training ends, total 1.65s
+2022-04-11 22:35:20	Epoch 23 testing start
+2022-04-11 22:35:20	Valid Loss: 0.0067306
+2022-04-11 22:35:24	Epoch: 23	Catergory: wood	Pixel-AUC: 0.949722	Image-AUC: 0.989474
+2022-04-11 22:35:24	Epoch 23 testing end, total 3.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:35:24	Epoch 24[32/197]: loss:0.57598, lr:0.40000, batch time:0.0695, data time:0.1995
+2022-04-11 22:35:24	Epoch 24[96/197]: loss:0.57296, lr:0.40000, batch time:0.0675, data time:0.1734
+2022-04-11 22:35:25	Epoch 24[160/197]: loss:0.56595, lr:0.40000, batch time:0.0678, data time:0.1739
+2022-04-11 22:35:25	Epoch 24[224/197]: loss:0.57200, lr:0.40000, batch time:0.0209, data time:0.0070
+2022-04-11 22:35:25	Epoch 24 training ends, total 1.51s
+2022-04-11 22:35:25	Epoch 24 testing start
+2022-04-11 22:35:25	Valid Loss: 0.0066639
+2022-04-11 22:35:29	Epoch: 24	Catergory: wood	Pixel-AUC: 0.944375	Image-AUC: 0.990351
+2022-04-11 22:35:29	Epoch 24 testing end, total 3.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:35:29	Epoch 25[32/197]: loss:0.56878, lr:0.40000, batch time:0.0876, data time:0.2037
+2022-04-11 22:35:30	Epoch 25[96/197]: loss:0.56420, lr:0.40000, batch time:0.0890, data time:0.1783
+2022-04-11 22:35:30	Epoch 25[160/197]: loss:0.56937, lr:0.40000, batch time:0.0394, data time:0.1770
+2022-04-11 22:35:30	Epoch 25[224/197]: loss:0.56846, lr:0.40000, batch time:0.0195, data time:0.0559
+2022-04-11 22:35:30	Epoch 25 training ends, total 1.65s
+2022-04-11 22:35:30	Epoch 25 testing start
+2022-04-11 22:35:31	Valid Loss: 0.0062526
+2022-04-11 22:35:34	Epoch: 25	Catergory: wood	Pixel-AUC: 0.943977	Image-AUC: 0.992105
+2022-04-11 22:35:34	Epoch 25 testing end, total 3.56s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:35:34	Epoch 26[32/197]: loss:0.55449, lr:0.40000, batch time:0.0745, data time:0.2020
+2022-04-11 22:35:35	Epoch 26[96/197]: loss:0.54782, lr:0.40000, batch time:0.0748, data time:0.1745
+2022-04-11 22:35:35	Epoch 26[160/197]: loss:0.56651, lr:0.40000, batch time:0.1398, data time:0.1934
+2022-04-11 22:35:36	Epoch 26[224/197]: loss:0.55236, lr:0.40000, batch time:0.0192, data time:0.0289
+2022-04-11 22:35:36	Epoch 26 training ends, total 1.67s
+2022-04-11 22:35:36	Epoch 26 testing start
+2022-04-11 22:35:36	Valid Loss: 0.0058398
+2022-04-11 22:35:39	Epoch: 26	Catergory: wood	Pixel-AUC: 0.945264	Image-AUC: 0.992105
+2022-04-11 22:35:39	Epoch 26 testing end, total 3.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:35:40	Epoch 27[32/197]: loss:0.56079, lr:0.40000, batch time:0.0671, data time:0.2014
+2022-04-11 22:35:40	Epoch 27[96/197]: loss:0.52997, lr:0.40000, batch time:0.0669, data time:0.1735
+2022-04-11 22:35:41	Epoch 27[160/197]: loss:0.54851, lr:0.40000, batch time:0.0669, data time:0.1730
+2022-04-11 22:35:41	Epoch 27[224/197]: loss:0.54107, lr:0.40000, batch time:0.0215, data time:0.0075
+2022-04-11 22:35:41	Epoch 27 training ends, total 1.50s
+2022-04-11 22:35:41	Epoch 27 testing start
+2022-04-11 22:35:41	Valid Loss: 0.0057315
+2022-04-11 22:35:44	Epoch: 27	Catergory: wood	Pixel-AUC: 0.948212	Image-AUC: 0.991228
+2022-04-11 22:35:44	Epoch 27 testing end, total 3.58s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:35:45	Epoch 28[32/197]: loss:0.53652, lr:0.40000, batch time:0.0871, data time:0.2235
+2022-04-11 22:35:45	Epoch 28[96/197]: loss:0.52143, lr:0.40000, batch time:0.0495, data time:0.2054
+2022-04-11 22:35:46	Epoch 28[160/197]: loss:0.52847, lr:0.40000, batch time:0.0875, data time:0.1761
+2022-04-11 22:35:46	Epoch 28[224/197]: loss:0.52698, lr:0.40000, batch time:0.0199, data time:0.0068
+2022-04-11 22:35:46	Epoch 28 training ends, total 1.67s
+2022-04-11 22:35:46	Epoch 28 testing start
+2022-04-11 22:35:46	Valid Loss: 0.0057192
+2022-04-11 22:35:50	Epoch: 28	Catergory: wood	Pixel-AUC: 0.947616	Image-AUC: 0.992105
+2022-04-11 22:35:50	Epoch 28 testing end, total 3.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:35:50	Epoch 29[32/197]: loss:0.53206, lr:0.40000, batch time:0.0672, data time:0.2005
+2022-04-11 22:35:50	Epoch 29[96/197]: loss:0.53072, lr:0.40000, batch time:0.0673, data time:0.1725
+2022-04-11 22:35:51	Epoch 29[160/197]: loss:0.52470, lr:0.40000, batch time:0.0688, data time:0.1742
+2022-04-11 22:35:51	Epoch 29[224/197]: loss:0.55165, lr:0.40000, batch time:0.0225, data time:0.0058
+2022-04-11 22:35:51	Epoch 29 training ends, total 1.51s
+2022-04-11 22:35:51	Epoch 29 testing start
+2022-04-11 22:35:52	Valid Loss: 0.0053603
+2022-04-11 22:35:55	Epoch: 29	Catergory: wood	Pixel-AUC: 0.948745	Image-AUC: 0.991228
+2022-04-11 22:35:55	Epoch 29 testing end, total 3.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:35:55	Epoch 30[32/197]: loss:0.52655, lr:0.40000, batch time:0.0394, data time:0.2064
+2022-04-11 22:35:56	Epoch 30[96/197]: loss:0.52814, lr:0.40000, batch time:0.0881, data time:0.1755
+2022-04-11 22:35:56	Epoch 30[160/197]: loss:0.52029, lr:0.40000, batch time:0.0405, data time:0.1762
+2022-04-11 22:35:57	Epoch 30[224/197]: loss:0.50671, lr:0.40000, batch time:0.0195, data time:0.0542
+2022-04-11 22:35:57	Epoch 30 training ends, total 1.65s
+2022-04-11 22:35:57	Epoch 30 testing start
+2022-04-11 22:35:57	Valid Loss: 0.0049518
+2022-04-11 22:36:00	Epoch: 30	Catergory: wood	Pixel-AUC: 0.948656	Image-AUC: 0.991228
+2022-04-11 22:36:00	Epoch 30 testing end, total 3.58s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:36:00	Epoch 31[32/197]: loss:0.50478, lr:0.40000, batch time:0.0673, data time:0.2006
+2022-04-11 22:36:01	Epoch 31[96/197]: loss:0.52789, lr:0.40000, batch time:0.0672, data time:0.1729
+2022-04-11 22:36:01	Epoch 31[160/197]: loss:0.51766, lr:0.40000, batch time:0.0850, data time:0.1724
+2022-04-11 22:36:02	Epoch 31[224/197]: loss:0.54482, lr:0.40000, batch time:0.0191, data time:0.0057
+2022-04-11 22:36:02	Epoch 31 training ends, total 1.61s
+2022-04-11 22:36:02	Epoch 31 testing start
+2022-04-11 22:36:02	Valid Loss: 0.0046895
+2022-04-11 22:36:05	Epoch: 31	Catergory: wood	Pixel-AUC: 0.949568	Image-AUC: 0.991228
+2022-04-11 22:36:05	Epoch 31 testing end, total 3.71s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:36:06	Epoch 32[32/197]: loss:0.51411, lr:0.40000, batch time:0.0667, data time:0.1992
+2022-04-11 22:36:06	Epoch 32[96/197]: loss:0.51020, lr:0.40000, batch time:0.0666, data time:0.1730
+2022-04-11 22:36:07	Epoch 32[160/197]: loss:0.50014, lr:0.40000, batch time:0.0669, data time:0.1733
+2022-04-11 22:36:07	Epoch 32[224/197]: loss:0.50514, lr:0.40000, batch time:0.0205, data time:0.0075
+2022-04-11 22:36:07	Epoch 32 training ends, total 1.50s
+2022-04-11 22:36:07	Epoch 32 testing start
+2022-04-11 22:36:07	Valid Loss: 0.0051430
+2022-04-11 22:36:10	Epoch: 32	Catergory: wood	Pixel-AUC: 0.948331	Image-AUC: 0.987719
+2022-04-11 22:36:10	Epoch 32 testing end, total 3.45s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:36:11	Epoch 33[32/197]: loss:0.50450, lr:0.40000, batch time:0.0354, data time:0.2261
+2022-04-11 22:36:11	Epoch 33[96/197]: loss:0.50540, lr:0.40000, batch time:0.0822, data time:0.2113
+2022-04-11 22:36:12	Epoch 33[160/197]: loss:0.49502, lr:0.40000, batch time:0.0667, data time:0.2386
+2022-04-11 22:36:12	Epoch 33[224/197]: loss:0.51801, lr:0.40000, batch time:0.0262, data time:0.0099
+2022-04-11 22:36:12	Epoch 33 training ends, total 1.68s
+2022-04-11 22:36:12	Epoch 33 testing start
+2022-04-11 22:36:12	Valid Loss: 0.0045190
+2022-04-11 22:36:16	Epoch: 33	Catergory: wood	Pixel-AUC: 0.948467	Image-AUC: 0.992982
+2022-04-11 22:36:16	Epoch 33 testing end, total 3.62s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:36:16	Epoch 34[32/197]: loss:0.49850, lr:0.40000, batch time:0.0701, data time:0.2007
+2022-04-11 22:36:16	Epoch 34[96/197]: loss:0.49844, lr:0.40000, batch time:0.0660, data time:0.1725
+2022-04-11 22:36:17	Epoch 34[160/197]: loss:0.49677, lr:0.40000, batch time:0.0665, data time:0.1733
+2022-04-11 22:36:17	Epoch 34[224/197]: loss:0.51132, lr:0.40000, batch time:0.0206, data time:0.0073
+2022-04-11 22:36:17	Epoch 34 training ends, total 1.50s
+2022-04-11 22:36:17	Epoch 34 testing start
+2022-04-11 22:36:18	Valid Loss: 0.0042090
+2022-04-11 22:36:21	Epoch: 34	Catergory: wood	Pixel-AUC: 0.950404	Image-AUC: 0.989474
+2022-04-11 22:36:21	Epoch 34 testing end, total 3.55s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:36:21	Epoch 35[32/197]: loss:0.49741, lr:0.40000, batch time:0.0878, data time:0.2054
+2022-04-11 22:36:22	Epoch 35[96/197]: loss:0.48315, lr:0.40000, batch time:0.0892, data time:0.2237
+2022-04-11 22:36:22	Epoch 35[160/197]: loss:0.48175, lr:0.40000, batch time:0.0892, data time:0.1767
+2022-04-11 22:36:22	Epoch 35[224/197]: loss:0.53590, lr:0.40000, batch time:0.0195, data time:0.0070
+2022-04-11 22:36:22	Epoch 35 training ends, total 1.65s
+2022-04-11 22:36:22	Epoch 35 testing start
+2022-04-11 22:36:23	Valid Loss: 0.0054265
+2022-04-11 22:36:26	Epoch: 35	Catergory: wood	Pixel-AUC: 0.945177	Image-AUC: 0.978070
+2022-04-11 22:36:26	Epoch 35 testing end, total 3.47s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:36:26	Epoch 36[32/197]: loss:0.49301, lr:0.40000, batch time:0.0748, data time:0.2038
+2022-04-11 22:36:27	Epoch 36[96/197]: loss:0.48817, lr:0.40000, batch time:0.0709, data time:0.1772
+2022-04-11 22:36:27	Epoch 36[160/197]: loss:0.48917, lr:0.40000, batch time:0.0706, data time:0.1795
+2022-04-11 22:36:27	Epoch 36[224/197]: loss:0.49647, lr:0.40000, batch time:0.0203, data time:0.0070
+2022-04-11 22:36:27	Epoch 36 training ends, total 1.55s
+2022-04-11 22:36:27	Epoch 36 testing start
+2022-04-11 22:36:28	Valid Loss: 0.0040983
+2022-04-11 22:36:31	Epoch: 36	Catergory: wood	Pixel-AUC: 0.950316	Image-AUC: 0.992105
+2022-04-11 22:36:31	Epoch 36 testing end, total 3.82s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:36:32	Epoch 37[32/197]: loss:0.49714, lr:0.40000, batch time:0.0891, data time:0.2040
+2022-04-11 22:36:32	Epoch 37[96/197]: loss:0.48686, lr:0.40000, batch time:0.0665, data time:0.2119
+2022-04-11 22:36:32	Epoch 37[160/197]: loss:0.47770, lr:0.40000, batch time:0.0314, data time:0.1723
+2022-04-11 22:36:33	Epoch 37[224/197]: loss:0.45301, lr:0.40000, batch time:0.0213, data time:0.0080
+2022-04-11 22:36:33	Epoch 37 training ends, total 1.54s
+2022-04-11 22:36:33	Epoch 37 testing start
+2022-04-11 22:36:33	Valid Loss: 0.0040189
+2022-04-11 22:36:36	Epoch: 37	Catergory: wood	Pixel-AUC: 0.950315	Image-AUC: 0.991228
+2022-04-11 22:36:36	Epoch 37 testing end, total 3.58s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:36:37	Epoch 38[32/197]: loss:0.46529, lr:0.40000, batch time:0.0516, data time:0.2287
+2022-04-11 22:36:37	Epoch 38[96/197]: loss:0.47048, lr:0.40000, batch time:0.0349, data time:0.2404
+2022-04-11 22:36:38	Epoch 38[160/197]: loss:0.46784, lr:0.40000, batch time:0.0555, data time:0.1834
+2022-04-11 22:36:38	Epoch 38[224/197]: loss:0.56776, lr:0.40000, batch time:0.0201, data time:0.0075
+2022-04-11 22:36:38	Epoch 38 training ends, total 1.75s
+2022-04-11 22:36:38	Epoch 38 testing start
+2022-04-11 22:36:38	Valid Loss: 0.1496265
+2022-04-11 22:36:42	Epoch: 38	Catergory: wood	Pixel-AUC: 0.839783	Image-AUC: 0.840351
+2022-04-11 22:36:42	Epoch 38 testing end, total 3.47s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:36:42	Epoch 39[32/197]: loss:0.50883, lr:0.40000, batch time:0.0670, data time:0.2000
+2022-04-11 22:36:42	Epoch 39[96/197]: loss:0.53216, lr:0.40000, batch time:0.0672, data time:0.1728
+2022-04-11 22:36:43	Epoch 39[160/197]: loss:0.53841, lr:0.40000, batch time:0.0666, data time:0.1726
+2022-04-11 22:36:43	Epoch 39[224/197]: loss:0.54033, lr:0.40000, batch time:0.0217, data time:0.0072
+2022-04-11 22:36:43	Epoch 39 training ends, total 1.50s
+2022-04-11 22:36:43	Epoch 39 testing start
+2022-04-11 22:36:43	Valid Loss: 0.0379364
+2022-04-11 22:36:46	Epoch: 39	Catergory: wood	Pixel-AUC: 0.913546	Image-AUC: 0.912281
+2022-04-11 22:36:46	Epoch 39 testing end, total 3.39s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:36:47	Epoch 40[32/197]: loss:0.51046, lr:0.40000, batch time:0.0673, data time:0.2005
+2022-04-11 22:36:47	Epoch 40[96/197]: loss:0.51632, lr:0.40000, batch time:0.0908, data time:0.1763
+2022-04-11 22:36:48	Epoch 40[160/197]: loss:0.49722, lr:0.40000, batch time:0.0902, data time:0.1767
+2022-04-11 22:36:48	Epoch 40[224/197]: loss:0.50998, lr:0.40000, batch time:0.0221, data time:0.0055
+2022-04-11 22:36:48	Epoch 40 training ends, total 1.63s
+2022-04-11 22:36:48	Epoch 40 testing start
+2022-04-11 22:36:48	Valid Loss: 0.0195485
+2022-04-11 22:36:52	Epoch: 40	Catergory: wood	Pixel-AUC: 0.929333	Image-AUC: 0.942105
+2022-04-11 22:36:52	Epoch 40 testing end, total 3.56s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:36:52	Epoch 41[32/197]: loss:0.49681, lr:0.40000, batch time:0.0676, data time:0.2014
+2022-04-11 22:36:52	Epoch 41[96/197]: loss:0.47844, lr:0.40000, batch time:0.0689, data time:0.1736
+2022-04-11 22:36:53	Epoch 41[160/197]: loss:0.48633, lr:0.40000, batch time:0.0690, data time:0.1717
+2022-04-11 22:36:53	Epoch 41[224/197]: loss:0.47754, lr:0.40000, batch time:0.0215, data time:0.0059
+2022-04-11 22:36:53	Epoch 41 training ends, total 1.51s
+2022-04-11 22:36:53	Epoch 41 testing start
+2022-04-11 22:36:54	Valid Loss: 0.0050619
+2022-04-11 22:36:57	Epoch: 41	Catergory: wood	Pixel-AUC: 0.958466	Image-AUC: 0.992105
+2022-04-11 22:36:57	Epoch 41 testing end, total 3.76s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:36:57	Epoch 42[32/197]: loss:0.46902, lr:0.40000, batch time:0.0386, data time:0.2083
+2022-04-11 22:36:58	Epoch 42[96/197]: loss:0.47364, lr:0.40000, batch time:0.0613, data time:0.1781
+2022-04-11 22:36:58	Epoch 42[160/197]: loss:0.46730, lr:0.40000, batch time:0.0897, data time:0.2257
+2022-04-11 22:36:59	Epoch 42[224/197]: loss:0.49696, lr:0.40000, batch time:0.0192, data time:0.0073
+2022-04-11 22:36:59	Epoch 42 training ends, total 1.63s
+2022-04-11 22:36:59	Epoch 42 testing start
+2022-04-11 22:36:59	Valid Loss: 0.0041138
+2022-04-11 22:37:02	Epoch: 42	Catergory: wood	Pixel-AUC: 0.959004	Image-AUC: 0.991228
+2022-04-11 22:37:02	Epoch 42 testing end, total 3.50s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:37:02	Epoch 43[32/197]: loss:0.47938, lr:0.40000, batch time:0.0672, data time:0.2004
+2022-04-11 22:37:03	Epoch 43[96/197]: loss:0.45267, lr:0.40000, batch time:0.0786, data time:0.1730
+2022-04-11 22:37:03	Epoch 43[160/197]: loss:0.48183, lr:0.40000, batch time:0.1382, data time:0.1947
+2022-04-11 22:37:04	Epoch 43[224/197]: loss:0.46743, lr:0.40000, batch time:0.0199, data time:0.0067
+2022-04-11 22:37:04	Epoch 43 training ends, total 1.67s
+2022-04-11 22:37:04	Epoch 43 testing start
+2022-04-11 22:37:04	Valid Loss: 0.0037388
+2022-04-11 22:37:07	Epoch: 43	Catergory: wood	Pixel-AUC: 0.958917	Image-AUC: 0.992105
+2022-04-11 22:37:07	Epoch 43 testing end, total 3.68s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:37:08	Epoch 44[32/197]: loss:0.46115, lr:0.40000, batch time:0.0673, data time:0.1998
+2022-04-11 22:37:08	Epoch 44[96/197]: loss:0.44847, lr:0.40000, batch time:0.0686, data time:0.1719
+2022-04-11 22:37:09	Epoch 44[160/197]: loss:0.45883, lr:0.40000, batch time:0.0672, data time:0.1725
+2022-04-11 22:37:09	Epoch 44[224/197]: loss:0.46429, lr:0.40000, batch time:0.0207, data time:0.0071
+2022-04-11 22:37:09	Epoch 44 training ends, total 1.50s
+2022-04-11 22:37:09	Epoch 44 testing start
+2022-04-11 22:37:09	Valid Loss: 0.0033194
+2022-04-11 22:37:13	Epoch: 44	Catergory: wood	Pixel-AUC: 0.960105	Image-AUC: 0.992982
+2022-04-11 22:37:13	Epoch 44 testing end, total 3.62s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:37:13	Epoch 45[32/197]: loss:0.45887, lr:0.40000, batch time:0.0977, data time:0.2308
+2022-04-11 22:37:13	Epoch 45[96/197]: loss:0.44245, lr:0.40000, batch time:0.0668, data time:0.1773
+2022-04-11 22:37:14	Epoch 45[160/197]: loss:0.44568, lr:0.40000, batch time:0.0895, data time:0.1783
+2022-04-11 22:37:14	Epoch 45[224/197]: loss:0.44729, lr:0.40000, batch time:0.0212, data time:0.0077
+2022-04-11 22:37:14	Epoch 45 training ends, total 1.68s
+2022-04-11 22:37:14	Epoch 45 testing start
+2022-04-11 22:37:15	Valid Loss: 0.0032028
+2022-04-11 22:37:18	Epoch: 45	Catergory: wood	Pixel-AUC: 0.960499	Image-AUC: 0.991228
+2022-04-11 22:37:18	Epoch 45 testing end, total 3.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:37:18	Epoch 46[32/197]: loss:0.46120, lr:0.40000, batch time:0.0685, data time:0.2001
+2022-04-11 22:37:19	Epoch 46[96/197]: loss:0.43731, lr:0.40000, batch time:0.0674, data time:0.1762
+2022-04-11 22:37:19	Epoch 46[160/197]: loss:0.44867, lr:0.40000, batch time:0.0674, data time:0.1750
+2022-04-11 22:37:19	Epoch 46[224/197]: loss:0.45161, lr:0.40000, batch time:0.0214, data time:0.0057
+2022-04-11 22:37:19	Epoch 46 training ends, total 1.51s
+2022-04-11 22:37:19	Epoch 46 testing start
+2022-04-11 22:37:20	Valid Loss: 0.0034165
+2022-04-11 22:37:23	Epoch: 46	Catergory: wood	Pixel-AUC: 0.957518	Image-AUC: 0.994737
+2022-04-11 22:37:23	Epoch 46 testing end, total 3.56s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:37:23	Epoch 47[32/197]: loss:0.44985, lr:0.40000, batch time:0.0899, data time:0.2064
+2022-04-11 22:37:24	Epoch 47[96/197]: loss:0.44114, lr:0.40000, batch time:0.0891, data time:0.1774
+2022-04-11 22:37:24	Epoch 47[160/197]: loss:0.43466, lr:0.40000, batch time:0.0854, data time:0.2259
+2022-04-11 22:37:25	Epoch 47[224/197]: loss:0.45875, lr:0.40000, batch time:0.0201, data time:0.0069
+2022-04-11 22:37:25	Epoch 47 training ends, total 1.65s
+2022-04-11 22:37:25	Epoch 47 testing start
+2022-04-11 22:37:25	Valid Loss: 0.0032692
+2022-04-11 22:37:28	Epoch: 47	Catergory: wood	Pixel-AUC: 0.957347	Image-AUC: 0.991228
+2022-04-11 22:37:28	Epoch 47 testing end, total 3.48s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:37:28	Epoch 48[32/197]: loss:0.44264, lr:0.40000, batch time:0.0674, data time:0.2028
+2022-04-11 22:37:29	Epoch 48[96/197]: loss:0.43323, lr:0.40000, batch time:0.0666, data time:0.1752
+2022-04-11 22:37:29	Epoch 48[160/197]: loss:0.43408, lr:0.40000, batch time:0.0777, data time:0.1750
+2022-04-11 22:37:30	Epoch 48[224/197]: loss:0.46691, lr:0.40000, batch time:0.0286, data time:0.0074
+2022-04-11 22:37:30	Epoch 48 training ends, total 1.56s
+2022-04-11 22:37:30	Epoch 48 testing start
+2022-04-11 22:37:30	Valid Loss: 0.0028750
+2022-04-11 22:37:33	Epoch: 48	Catergory: wood	Pixel-AUC: 0.957947	Image-AUC: 0.992982
+2022-04-11 22:37:33	Epoch 48 testing end, total 3.75s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:37:34	Epoch 49[32/197]: loss:0.42891, lr:0.40000, batch time:0.0675, data time:0.2019
+2022-04-11 22:37:34	Epoch 49[96/197]: loss:0.43798, lr:0.40000, batch time:0.0680, data time:0.1786
+2022-04-11 22:37:35	Epoch 49[160/197]: loss:0.41742, lr:0.40000, batch time:0.0667, data time:0.1751
+2022-04-11 22:37:35	Epoch 49[224/197]: loss:0.42935, lr:0.40000, batch time:0.0209, data time:0.0074
+2022-04-11 22:37:35	Epoch 49 training ends, total 1.51s
+2022-04-11 22:37:35	Epoch 49 testing start
+2022-04-11 22:37:35	Valid Loss: 0.0029124
+2022-04-11 22:37:38	Epoch: 49	Catergory: wood	Pixel-AUC: 0.957114	Image-AUC: 0.994737
+2022-04-11 22:37:38	Epoch 49 testing end, total 3.48s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:37:39	Epoch 50[32/197]: loss:0.43434, lr:0.40000, batch time:0.0780, data time:0.2236
+2022-04-11 22:37:39	Epoch 50[96/197]: loss:0.42193, lr:0.40000, batch time:0.0347, data time:0.2589
+2022-04-11 22:37:40	Epoch 50[160/197]: loss:0.42562, lr:0.40000, batch time:0.0775, data time:0.1725
+2022-04-11 22:37:40	Epoch 50[224/197]: loss:0.42257, lr:0.40000, batch time:0.0198, data time:0.0072
+2022-04-11 22:37:40	Epoch 50 training ends, total 1.68s
+2022-04-11 22:37:40	Epoch 50 testing start
+2022-04-11 22:37:40	Valid Loss: 0.0024398
+2022-04-11 22:37:44	Epoch: 50	Catergory: wood	Pixel-AUC: 0.957939	Image-AUC: 0.993860
+2022-04-11 22:37:44	Epoch 50 testing end, total 3.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:37:44	Epoch 51[32/197]: loss:0.41616, lr:0.40000, batch time:0.0674, data time:0.2009
+2022-04-11 22:37:44	Epoch 51[96/197]: loss:0.41478, lr:0.40000, batch time:0.0674, data time:0.1739
+2022-04-11 22:37:45	Epoch 51[160/197]: loss:0.43099, lr:0.40000, batch time:0.0675, data time:0.1754
+2022-04-11 22:37:45	Epoch 51[224/197]: loss:0.42258, lr:0.40000, batch time:0.0220, data time:0.0430
+2022-04-11 22:37:45	Epoch 51 training ends, total 1.51s
+2022-04-11 22:37:45	Epoch 51 testing start
+2022-04-11 22:37:46	Valid Loss: 0.0025270
+2022-04-11 22:37:49	Epoch: 51	Catergory: wood	Pixel-AUC: 0.958691	Image-AUC: 0.994737
+2022-04-11 22:37:49	Epoch 51 testing end, total 3.52s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:37:49	Epoch 52[32/197]: loss:0.41746, lr:0.40000, batch time:0.0897, data time:0.2030
+2022-04-11 22:37:50	Epoch 52[96/197]: loss:0.41704, lr:0.40000, batch time:0.0875, data time:0.1765
+2022-04-11 22:37:50	Epoch 52[160/197]: loss:0.42120, lr:0.40000, batch time:0.0900, data time:0.1773
+2022-04-11 22:37:50	Epoch 52[224/197]: loss:0.42569, lr:0.40000, batch time:0.0197, data time:0.0069
+2022-04-11 22:37:50	Epoch 52 training ends, total 1.65s
+2022-04-11 22:37:50	Epoch 52 testing start
+2022-04-11 22:37:51	Valid Loss: 0.0026583
+2022-04-11 22:37:54	Epoch: 52	Catergory: wood	Pixel-AUC: 0.955437	Image-AUC: 0.995614
+2022-04-11 22:37:54	Epoch 52 testing end, total 3.49s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:37:54	Epoch 53[32/197]: loss:0.41147, lr:0.40000, batch time:0.0663, data time:0.2020
+2022-04-11 22:37:55	Epoch 53[96/197]: loss:0.42231, lr:0.40000, batch time:0.0672, data time:0.1737
+2022-04-11 22:37:55	Epoch 53[160/197]: loss:0.41795, lr:0.40000, batch time:0.0673, data time:0.1738
+2022-04-11 22:37:55	Epoch 53[224/197]: loss:0.43610, lr:0.40000, batch time:0.0209, data time:0.0074
+2022-04-11 22:37:55	Epoch 53 training ends, total 1.51s
+2022-04-11 22:37:55	Epoch 53 testing start
+2022-04-11 22:37:56	Valid Loss: 0.0026263
+2022-04-11 22:37:59	Epoch: 53	Catergory: wood	Pixel-AUC: 0.956145	Image-AUC: 0.992982
+2022-04-11 22:37:59	Epoch 53 testing end, total 3.69s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:37:59	Epoch 54[32/197]: loss:0.41477, lr:0.40000, batch time:0.0885, data time:0.2077
+2022-04-11 22:38:00	Epoch 54[96/197]: loss:0.40458, lr:0.40000, batch time:0.0673, data time:0.1764
+2022-04-11 22:38:00	Epoch 54[160/197]: loss:0.40557, lr:0.40000, batch time:0.0669, data time:0.1744
+2022-04-11 22:38:01	Epoch 54[224/197]: loss:0.44547, lr:0.40000, batch time:0.0194, data time:0.0074
+2022-04-11 22:38:01	Epoch 54 training ends, total 1.56s
+2022-04-11 22:38:01	Epoch 54 testing start
+2022-04-11 22:38:01	Valid Loss: 0.0025420
+2022-04-11 22:38:04	Epoch: 54	Catergory: wood	Pixel-AUC: 0.955753	Image-AUC: 0.995614
+2022-04-11 22:38:04	Epoch 54 testing end, total 3.43s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:38:04	Epoch 55[32/197]: loss:0.41580, lr:0.40000, batch time:0.1305, data time:0.2016
+2022-04-11 22:38:05	Epoch 55[96/197]: loss:0.41190, lr:0.40000, batch time:0.0782, data time:0.2392
+2022-04-11 22:38:06	Epoch 55[160/197]: loss:0.41217, lr:0.40000, batch time:0.1316, data time:0.2303
+2022-04-11 22:38:06	Epoch 55[224/197]: loss:0.43066, lr:0.40000, batch time:0.0298, data time:0.0071
+2022-04-11 22:38:06	Epoch 55 training ends, total 1.82s
+2022-04-11 22:38:06	Epoch 55 testing start
+2022-04-11 22:38:06	Valid Loss: 0.0026475
+2022-04-11 22:38:09	Epoch: 55	Catergory: wood	Pixel-AUC: 0.956300	Image-AUC: 0.992105
+2022-04-11 22:38:09	Epoch 55 testing end, total 3.50s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:38:10	Epoch 56[32/197]: loss:0.39868, lr:0.40000, batch time:0.0663, data time:0.2022
+2022-04-11 22:38:10	Epoch 56[96/197]: loss:0.41561, lr:0.40000, batch time:0.0672, data time:0.2081
+2022-04-11 22:38:11	Epoch 56[160/197]: loss:0.41179, lr:0.40000, batch time:0.0667, data time:0.1749
+2022-04-11 22:38:11	Epoch 56[224/197]: loss:0.42907, lr:0.40000, batch time:0.0227, data time:0.0430
+2022-04-11 22:38:11	Epoch 56 training ends, total 1.51s
+2022-04-11 22:38:11	Epoch 56 testing start
+2022-04-11 22:38:11	Valid Loss: 0.0026459
+2022-04-11 22:38:14	Epoch: 56	Catergory: wood	Pixel-AUC: 0.957170	Image-AUC: 0.993860
+2022-04-11 22:38:14	Epoch 56 testing end, total 3.49s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:38:15	Epoch 57[32/197]: loss:0.41122, lr:0.40000, batch time:0.0534, data time:0.2096
+2022-04-11 22:38:15	Epoch 57[96/197]: loss:0.40307, lr:0.40000, batch time:0.0909, data time:0.1780
+2022-04-11 22:38:16	Epoch 57[160/197]: loss:0.40071, lr:0.40000, batch time:0.0635, data time:0.1903
+2022-04-11 22:38:16	Epoch 57[224/197]: loss:0.42233, lr:0.40000, batch time:0.0222, data time:0.0070
+2022-04-11 22:38:16	Epoch 57 training ends, total 1.65s
+2022-04-11 22:38:16	Epoch 57 testing start
+2022-04-11 22:38:16	Valid Loss: 0.0024299
+2022-04-11 22:38:20	Epoch: 57	Catergory: wood	Pixel-AUC: 0.957024	Image-AUC: 0.995614
+2022-04-11 22:38:20	Epoch 57 testing end, total 3.72s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:38:20	Epoch 58[32/197]: loss:0.40461, lr:0.40000, batch time:0.0691, data time:0.2027
+2022-04-11 22:38:21	Epoch 58[96/197]: loss:0.40237, lr:0.40000, batch time:0.0692, data time:0.1741
+2022-04-11 22:38:21	Epoch 58[160/197]: loss:0.39088, lr:0.40000, batch time:0.0685, data time:0.1751
+2022-04-11 22:38:21	Epoch 58[224/197]: loss:0.42623, lr:0.40000, batch time:0.0213, data time:0.0069
+2022-04-11 22:38:21	Epoch 58 training ends, total 1.51s
+2022-04-11 22:38:21	Epoch 58 testing start
+2022-04-11 22:38:22	Valid Loss: 0.0021013
+2022-04-11 22:38:25	Epoch: 58	Catergory: wood	Pixel-AUC: 0.957550	Image-AUC: 0.994737
+2022-04-11 22:38:25	Epoch 58 testing end, total 3.84s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:38:25	Epoch 59[32/197]: loss:0.38690, lr:0.40000, batch time:0.0879, data time:0.2060
+2022-04-11 22:38:26	Epoch 59[96/197]: loss:0.40561, lr:0.40000, batch time:0.0893, data time:0.1763
+2022-04-11 22:38:26	Epoch 59[160/197]: loss:0.39675, lr:0.40000, batch time:0.0669, data time:0.1712
+2022-04-11 22:38:27	Epoch 59[224/197]: loss:0.43546, lr:0.40000, batch time:0.0200, data time:0.0075
+2022-04-11 22:38:27	Epoch 59 training ends, total 1.60s
+2022-04-11 22:38:27	Epoch 59 testing start
+2022-04-11 22:38:27	Valid Loss: 0.0022281
+2022-04-11 22:38:30	Epoch: 59	Catergory: wood	Pixel-AUC: 0.953962	Image-AUC: 0.996491
+2022-04-11 22:38:30	Epoch 59 testing end, total 3.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:38:31	Epoch 60[32/197]: loss:0.39023, lr:0.40000, batch time:0.0679, data time:0.2028
+2022-04-11 22:38:31	Epoch 60[96/197]: loss:0.39207, lr:0.40000, batch time:0.1309, data time:0.1942
+2022-04-11 22:38:32	Epoch 60[160/197]: loss:0.40241, lr:0.40000, batch time:0.0788, data time:0.2389
+2022-04-11 22:38:32	Epoch 60[224/197]: loss:0.44034, lr:0.40000, batch time:0.0196, data time:0.0361
+2022-04-11 22:38:32	Epoch 60 training ends, total 1.77s
+2022-04-11 22:38:32	Epoch 60 testing start
+2022-04-11 22:38:32	Valid Loss: 0.0021204
+2022-04-11 22:38:36	Epoch: 60	Catergory: wood	Pixel-AUC: 0.955948	Image-AUC: 0.993860
+2022-04-11 22:38:36	Epoch 60 testing end, total 3.55s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:38:36	Epoch 61[32/197]: loss:0.39078, lr:0.40000, batch time:0.0672, data time:0.2005
+2022-04-11 22:38:36	Epoch 61[96/197]: loss:0.38385, lr:0.40000, batch time:0.0662, data time:0.1736
+2022-04-11 22:38:37	Epoch 61[160/197]: loss:0.38759, lr:0.40000, batch time:0.0667, data time:0.1744
+2022-04-11 22:38:37	Epoch 61[224/197]: loss:0.40713, lr:0.40000, batch time:0.0223, data time:0.0072
+2022-04-11 22:38:37	Epoch 61 training ends, total 1.50s
+2022-04-11 22:38:37	Epoch 61 testing start
+2022-04-11 22:38:37	Valid Loss: 0.0018637
+2022-04-11 22:38:41	Epoch: 61	Catergory: wood	Pixel-AUC: 0.956206	Image-AUC: 0.994737
+2022-04-11 22:38:41	Epoch 61 testing end, total 3.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:38:41	Epoch 62[32/197]: loss:0.38433, lr:0.40000, batch time:0.0673, data time:0.2224
+2022-04-11 22:38:42	Epoch 62[96/197]: loss:0.38418, lr:0.40000, batch time:0.0860, data time:0.1783
+2022-04-11 22:38:42	Epoch 62[160/197]: loss:0.37834, lr:0.40000, batch time:0.0876, data time:0.1761
+2022-04-11 22:38:42	Epoch 62[224/197]: loss:0.38003, lr:0.40000, batch time:0.0194, data time:0.0070
+2022-04-11 22:38:42	Epoch 62 training ends, total 1.65s
+2022-04-11 22:38:42	Epoch 62 testing start
+2022-04-11 22:38:43	Valid Loss: 0.0018752
+2022-04-11 22:38:46	Epoch: 62	Catergory: wood	Pixel-AUC: 0.956092	Image-AUC: 0.993860
+2022-04-11 22:38:46	Epoch 62 testing end, total 3.51s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:38:46	Epoch 63[32/197]: loss:0.38122, lr:0.40000, batch time:0.0679, data time:0.2027
+2022-04-11 22:38:47	Epoch 63[96/197]: loss:0.39038, lr:0.40000, batch time:0.0675, data time:0.1755
+2022-04-11 22:38:47	Epoch 63[160/197]: loss:0.36936, lr:0.40000, batch time:0.0677, data time:0.1750
+2022-04-11 22:38:47	Epoch 63[224/197]: loss:0.41795, lr:0.40000, batch time:0.0213, data time:0.0068
+2022-04-11 22:38:47	Epoch 63 training ends, total 1.52s
+2022-04-11 22:38:47	Epoch 63 testing start
+2022-04-11 22:38:48	Valid Loss: 0.0021436
+2022-04-11 22:38:51	Epoch: 63	Catergory: wood	Pixel-AUC: 0.954378	Image-AUC: 0.986842
+2022-04-11 22:38:51	Epoch 63 testing end, total 3.64s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:38:51	Epoch 64[32/197]: loss:0.38017, lr:0.40000, batch time:0.0909, data time:0.2038
+2022-04-11 22:38:52	Epoch 64[96/197]: loss:0.37687, lr:0.40000, batch time:0.0896, data time:0.1757
+2022-04-11 22:38:52	Epoch 64[160/197]: loss:0.37306, lr:0.40000, batch time:0.0380, data time:0.1783
+2022-04-11 22:38:53	Epoch 64[224/197]: loss:0.40066, lr:0.40000, batch time:0.0201, data time:0.0067
+2022-04-11 22:38:53	Epoch 64 training ends, total 1.61s
+2022-04-11 22:38:53	Epoch 64 testing start
+2022-04-11 22:38:53	Valid Loss: 0.0019542
+2022-04-11 22:38:56	Epoch: 64	Catergory: wood	Pixel-AUC: 0.956253	Image-AUC: 0.992982
+2022-04-11 22:38:56	Epoch 64 testing end, total 3.43s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:38:56	Epoch 65[32/197]: loss:0.38277, lr:0.40000, batch time:0.0736, data time:0.2009
+2022-04-11 22:38:57	Epoch 65[96/197]: loss:0.37432, lr:0.40000, batch time:0.0834, data time:0.1726
+2022-04-11 22:38:57	Epoch 65[160/197]: loss:0.37147, lr:0.40000, batch time:0.1000, data time:0.1988
+2022-04-11 22:38:58	Epoch 65[224/197]: loss:0.37955, lr:0.40000, batch time:0.0200, data time:0.0004
+2022-04-11 22:38:58	Epoch 65 training ends, total 1.70s
+2022-04-11 22:38:58	Epoch 65 testing start
+2022-04-11 22:38:58	Valid Loss: 0.0018016
+2022-04-11 22:39:01	Epoch: 65	Catergory: wood	Pixel-AUC: 0.955911	Image-AUC: 0.989474
+2022-04-11 22:39:02	Epoch 65 testing end, total 3.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:39:02	Epoch 66[32/197]: loss:0.37475, lr:0.40000, batch time:0.0678, data time:0.2003
+2022-04-11 22:39:02	Epoch 66[96/197]: loss:0.37897, lr:0.40000, batch time:0.0670, data time:0.1735
+2022-04-11 22:39:03	Epoch 66[160/197]: loss:0.37188, lr:0.40000, batch time:0.0669, data time:0.1728
+2022-04-11 22:39:03	Epoch 66[224/197]: loss:0.37140, lr:0.40000, batch time:0.0222, data time:0.0425
+2022-04-11 22:39:03	Epoch 66 training ends, total 1.50s
+2022-04-11 22:39:03	Epoch 66 testing start
+2022-04-11 22:39:03	Valid Loss: 0.0019775
+2022-04-11 22:39:06	Epoch: 66	Catergory: wood	Pixel-AUC: 0.954747	Image-AUC: 0.992105
+2022-04-11 22:39:06	Epoch 66 testing end, total 3.43s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:39:07	Epoch 67[32/197]: loss:0.37680, lr:0.40000, batch time:0.0783, data time:0.2201
+2022-04-11 22:39:07	Epoch 67[96/197]: loss:0.37772, lr:0.40000, batch time:0.0744, data time:0.1916
+2022-04-11 22:39:08	Epoch 67[160/197]: loss:0.37138, lr:0.40000, batch time:0.0876, data time:0.1704
+2022-04-11 22:39:08	Epoch 67[224/197]: loss:0.37016, lr:0.40000, batch time:0.0204, data time:0.0068
+2022-04-11 22:39:08	Epoch 67 training ends, total 1.62s
+2022-04-11 22:39:08	Epoch 67 testing start
+2022-04-11 22:39:08	Valid Loss: 0.0020390
+2022-04-11 22:39:12	Epoch: 67	Catergory: wood	Pixel-AUC: 0.954688	Image-AUC: 0.988596
+2022-04-11 22:39:12	Epoch 67 testing end, total 3.48s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:39:12	Epoch 68[32/197]: loss:0.36354, lr:0.40000, batch time:0.0671, data time:0.2001
+2022-04-11 22:39:12	Epoch 68[96/197]: loss:0.37208, lr:0.40000, batch time:0.0672, data time:0.1719
+2022-04-11 22:39:13	Epoch 68[160/197]: loss:0.37608, lr:0.40000, batch time:0.0686, data time:0.1744
+2022-04-11 22:39:13	Epoch 68[224/197]: loss:0.37374, lr:0.40000, batch time:0.0214, data time:0.0429
+2022-04-11 22:39:13	Epoch 68 training ends, total 1.50s
+2022-04-11 22:39:13	Epoch 68 testing start
+2022-04-11 22:39:13	Valid Loss: 0.0016985
+2022-04-11 22:39:17	Epoch: 68	Catergory: wood	Pixel-AUC: 0.954570	Image-AUC: 0.995614
+2022-04-11 22:39:17	Epoch 68 testing end, total 3.66s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:39:17	Epoch 69[32/197]: loss:0.36036, lr:0.40000, batch time:0.0897, data time:0.2066
+2022-04-11 22:39:18	Epoch 69[96/197]: loss:0.36733, lr:0.40000, batch time:0.0899, data time:0.1775
+2022-04-11 22:39:18	Epoch 69[160/197]: loss:0.35992, lr:0.40000, batch time:0.0903, data time:0.2254
+2022-04-11 22:39:18	Epoch 69[224/197]: loss:0.41599, lr:0.40000, batch time:0.0214, data time:0.0541
+2022-04-11 22:39:18	Epoch 69 training ends, total 1.66s
+2022-04-11 22:39:18	Epoch 69 testing start
+2022-04-11 22:39:19	Valid Loss: 0.0017480
+2022-04-11 22:39:22	Epoch: 69	Catergory: wood	Pixel-AUC: 0.955169	Image-AUC: 0.992982
+2022-04-11 22:39:22	Epoch 69 testing end, total 3.52s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:39:22	Epoch 70[32/197]: loss:0.36309, lr:0.40000, batch time:0.0671, data time:0.2032
+2022-04-11 22:39:23	Epoch 70[96/197]: loss:0.37077, lr:0.40000, batch time:0.0681, data time:0.1727
+2022-04-11 22:39:23	Epoch 70[160/197]: loss:0.36136, lr:0.40000, batch time:0.0694, data time:0.1726
+2022-04-11 22:39:23	Epoch 70[224/197]: loss:0.35755, lr:0.40000, batch time:0.0196, data time:0.0057
+2022-04-11 22:39:23	Epoch 70 training ends, total 1.51s
+2022-04-11 22:39:23	Epoch 70 testing start
+2022-04-11 22:39:24	Valid Loss: 0.0016021
+2022-04-11 22:39:27	Epoch: 70	Catergory: wood	Pixel-AUC: 0.954896	Image-AUC: 0.993860
+2022-04-11 22:39:27	Epoch 70 testing end, total 3.80s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:39:27	Epoch 71[32/197]: loss:0.35794, lr:0.40000, batch time:0.0905, data time:0.2057
+2022-04-11 22:39:28	Epoch 71[96/197]: loss:0.36444, lr:0.40000, batch time:0.0662, data time:0.1727
+2022-04-11 22:39:28	Epoch 71[160/197]: loss:0.35748, lr:0.40000, batch time:0.0673, data time:0.1721
+2022-04-11 22:39:29	Epoch 71[224/197]: loss:0.36221, lr:0.40000, batch time:0.0209, data time:0.0075
+2022-04-11 22:39:29	Epoch 71 training ends, total 1.53s
+2022-04-11 22:39:29	Epoch 71 testing start
+2022-04-11 22:39:29	Valid Loss: 0.0015868
+2022-04-11 22:39:32	Epoch: 71	Catergory: wood	Pixel-AUC: 0.953922	Image-AUC: 0.994737
+2022-04-11 22:39:32	Epoch 71 testing end, total 3.63s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:39:33	Epoch 72[32/197]: loss:0.36936, lr:0.40000, batch time:0.0354, data time:0.2404
+2022-04-11 22:39:33	Epoch 72[96/197]: loss:0.35194, lr:0.40000, batch time:0.1062, data time:0.2209
+2022-04-11 22:39:34	Epoch 72[160/197]: loss:0.34936, lr:0.40000, batch time:0.0311, data time:0.2276
+2022-04-11 22:39:34	Epoch 72[224/197]: loss:0.38845, lr:0.40000, batch time:0.0194, data time:0.0069
+2022-04-11 22:39:34	Epoch 72 training ends, total 1.75s
+2022-04-11 22:39:34	Epoch 72 testing start
+2022-04-11 22:39:34	Valid Loss: 0.0018052
+2022-04-11 22:39:38	Epoch: 72	Catergory: wood	Pixel-AUC: 0.950741	Image-AUC: 0.994737
+2022-04-11 22:39:38	Epoch 72 testing end, total 3.51s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:39:38	Epoch 73[32/197]: loss:0.35351, lr:0.40000, batch time:0.0673, data time:0.2025
+2022-04-11 22:39:38	Epoch 73[96/197]: loss:0.35766, lr:0.40000, batch time:0.0673, data time:0.2076
+2022-04-11 22:39:39	Epoch 73[160/197]: loss:0.35850, lr:0.40000, batch time:0.0674, data time:0.1729
+2022-04-11 22:39:39	Epoch 73[224/197]: loss:0.36524, lr:0.40000, batch time:0.0214, data time:0.0074
+2022-04-11 22:39:39	Epoch 73 training ends, total 1.51s
+2022-04-11 22:39:39	Epoch 73 testing start
+2022-04-11 22:39:39	Valid Loss: 0.0018783
+2022-04-11 22:39:43	Epoch: 73	Catergory: wood	Pixel-AUC: 0.952649	Image-AUC: 0.995614
+2022-04-11 22:39:43	Epoch 73 testing end, total 3.44s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:39:43	Epoch 74[32/197]: loss:0.35036, lr:0.40000, batch time:0.0893, data time:0.2044
+2022-04-11 22:39:43	Epoch 74[96/197]: loss:0.35701, lr:0.40000, batch time:0.0891, data time:0.1773
+2022-04-11 22:39:44	Epoch 74[160/197]: loss:0.35093, lr:0.40000, batch time:0.0377, data time:0.1783
+2022-04-11 22:39:44	Epoch 74[224/197]: loss:0.37871, lr:0.40000, batch time:0.0204, data time:0.0080
+2022-04-11 22:39:44	Epoch 74 training ends, total 1.65s
+2022-04-11 22:39:44	Epoch 74 testing start
+2022-04-11 22:39:45	Valid Loss: 0.0015424
+2022-04-11 22:39:48	Epoch: 74	Catergory: wood	Pixel-AUC: 0.952368	Image-AUC: 0.994737
+2022-04-11 22:39:48	Epoch 74 testing end, total 3.61s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:39:48	Epoch 75[32/197]: loss:0.35057, lr:0.40000, batch time:0.0755, data time:0.2042
+2022-04-11 22:39:49	Epoch 75[96/197]: loss:0.35063, lr:0.40000, batch time:0.0712, data time:0.1741
+2022-04-11 22:39:49	Epoch 75[160/197]: loss:0.34546, lr:0.40000, batch time:0.0706, data time:0.1731
+2022-04-11 22:39:49	Epoch 75[224/197]: loss:0.35895, lr:0.40000, batch time:0.0207, data time:0.0069
+2022-04-11 22:39:49	Epoch 75 training ends, total 1.53s
+2022-04-11 22:39:49	Epoch 75 testing start
+2022-04-11 22:39:50	Valid Loss: 0.0013612
+2022-04-11 22:39:53	Epoch: 75	Catergory: wood	Pixel-AUC: 0.955688	Image-AUC: 0.995614
+2022-04-11 22:39:53	Epoch 75 testing end, total 3.84s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:39:53	Epoch 76[32/197]: loss:0.35731, lr:0.40000, batch time:0.0896, data time:0.2051
+2022-04-11 22:39:54	Epoch 76[96/197]: loss:0.35258, lr:0.40000, batch time:0.0663, data time:0.1727
+2022-04-11 22:39:54	Epoch 76[160/197]: loss:0.34219, lr:0.40000, batch time:0.0664, data time:0.1737
+2022-04-11 22:39:55	Epoch 76[224/197]: loss:0.34688, lr:0.40000, batch time:0.0215, data time:0.0080
+2022-04-11 22:39:55	Epoch 76 training ends, total 1.55s
+2022-04-11 22:39:55	Epoch 76 testing start
+2022-04-11 22:39:55	Valid Loss: 0.0014706
+2022-04-11 22:39:58	Epoch: 76	Catergory: wood	Pixel-AUC: 0.954469	Image-AUC: 0.994737
+2022-04-11 22:39:58	Epoch 76 testing end, total 3.49s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:39:59	Epoch 77[32/197]: loss:0.34586, lr:0.40000, batch time:0.1191, data time:0.2280
+2022-04-11 22:39:59	Epoch 77[96/197]: loss:0.34084, lr:0.40000, batch time:0.0782, data time:0.1972
+2022-04-11 22:40:00	Epoch 77[160/197]: loss:0.34359, lr:0.40000, batch time:0.0353, data time:0.2199
+2022-04-11 22:40:00	Epoch 77[224/197]: loss:0.36597, lr:0.40000, batch time:0.0198, data time:0.0076
+2022-04-11 22:40:00	Epoch 77 training ends, total 1.77s
+2022-04-11 22:40:00	Epoch 77 testing start
+2022-04-11 22:40:00	Valid Loss: 0.0016344
+2022-04-11 22:40:03	Epoch: 77	Catergory: wood	Pixel-AUC: 0.954539	Image-AUC: 0.992982
+2022-04-11 22:40:03	Epoch 77 testing end, total 3.50s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:40:04	Epoch 78[32/197]: loss:0.34119, lr:0.40000, batch time:0.0673, data time:0.2013
+2022-04-11 22:40:04	Epoch 78[96/197]: loss:0.34747, lr:0.40000, batch time:0.0675, data time:0.2107
+2022-04-11 22:40:05	Epoch 78[160/197]: loss:0.34613, lr:0.40000, batch time:0.0669, data time:0.2096
+2022-04-11 22:40:05	Epoch 78[224/197]: loss:0.35378, lr:0.40000, batch time:0.0219, data time:0.0076
+2022-04-11 22:40:05	Epoch 78 training ends, total 1.51s
+2022-04-11 22:40:05	Epoch 78 testing start
+2022-04-11 22:40:05	Valid Loss: 0.0016804
+2022-04-11 22:40:08	Epoch: 78	Catergory: wood	Pixel-AUC: 0.950509	Image-AUC: 0.987719
+2022-04-11 22:40:08	Epoch 78 testing end, total 3.39s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:40:09	Epoch 79[32/197]: loss:0.34674, lr:0.40000, batch time:0.0886, data time:0.2001
+2022-04-11 22:40:09	Epoch 79[96/197]: loss:0.33883, lr:0.40000, batch time:0.0800, data time:0.1761
+2022-04-11 22:40:10	Epoch 79[160/197]: loss:0.33634, lr:0.40000, batch time:0.0892, data time:0.1762
+2022-04-11 22:40:10	Epoch 79[224/197]: loss:0.37742, lr:0.40000, batch time:0.0196, data time:0.0075
+2022-04-11 22:40:10	Epoch 79 training ends, total 1.64s
+2022-04-11 22:40:10	Epoch 79 testing start
+2022-04-11 22:40:10	Valid Loss: 0.0013309
+2022-04-11 22:40:14	Epoch: 79	Catergory: wood	Pixel-AUC: 0.952983	Image-AUC: 0.994737
+2022-04-11 22:40:14	Epoch 79 testing end, total 3.63s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:40:14	Epoch 80[32/197]: loss:0.33614, lr:0.40000, batch time:0.0681, data time:0.2002
+2022-04-11 22:40:14	Epoch 80[96/197]: loss:0.33864, lr:0.40000, batch time:0.0670, data time:0.1724
+2022-04-11 22:40:15	Epoch 80[160/197]: loss:0.33099, lr:0.40000, batch time:0.0671, data time:0.1718
+2022-04-11 22:40:15	Epoch 80[224/197]: loss:0.34323, lr:0.40000, batch time:0.0209, data time:0.0059
+2022-04-11 22:40:15	Epoch 80 training ends, total 1.50s
+2022-04-11 22:40:15	Epoch 80 testing start
+2022-04-11 22:40:15	Valid Loss: 0.0014994
+2022-04-11 22:40:19	Epoch: 80	Catergory: wood	Pixel-AUC: 0.953984	Image-AUC: 0.994737
+2022-04-11 22:40:19	Epoch 80 testing end, total 3.73s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:40:19	Epoch 81[32/197]: loss:0.33608, lr:0.40000, batch time:0.0801, data time:0.2057
+2022-04-11 22:40:20	Epoch 81[96/197]: loss:0.33224, lr:0.40000, batch time:0.0892, data time:0.1736
+2022-04-11 22:40:20	Epoch 81[160/197]: loss:0.34006, lr:0.40000, batch time:0.0674, data time:0.2181
+2022-04-11 22:40:20	Epoch 81[224/197]: loss:0.35294, lr:0.40000, batch time:0.0237, data time:0.0004
+2022-04-11 22:40:20	Epoch 81 training ends, total 1.58s
+2022-04-11 22:40:20	Epoch 81 testing start
+2022-04-11 22:40:21	Valid Loss: 0.0014008
+2022-04-11 22:40:24	Epoch: 81	Catergory: wood	Pixel-AUC: 0.954439	Image-AUC: 0.992982
+2022-04-11 22:40:24	Epoch 81 testing end, total 3.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:40:24	Epoch 82[32/197]: loss:0.33717, lr:0.40000, batch time:0.0673, data time:0.2026
+2022-04-11 22:40:25	Epoch 82[96/197]: loss:0.33214, lr:0.40000, batch time:0.0774, data time:0.1931
+2022-04-11 22:40:25	Epoch 82[160/197]: loss:0.32888, lr:0.40000, batch time:0.1386, data time:0.1961
+2022-04-11 22:40:26	Epoch 82[224/197]: loss:0.33863, lr:0.40000, batch time:0.0197, data time:0.0284
+2022-04-11 22:40:26	Epoch 82 training ends, total 1.70s
+2022-04-11 22:40:26	Epoch 82 testing start
+2022-04-11 22:40:26	Valid Loss: 0.0013174
+2022-04-11 22:40:29	Epoch: 82	Catergory: wood	Pixel-AUC: 0.955641	Image-AUC: 0.994737
+2022-04-11 22:40:29	Epoch 82 testing end, total 3.65s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:40:30	Epoch 83[32/197]: loss:0.33133, lr:0.40000, batch time:0.0692, data time:0.2029
+2022-04-11 22:40:30	Epoch 83[96/197]: loss:0.32492, lr:0.40000, batch time:0.0665, data time:0.2103
+2022-04-11 22:40:31	Epoch 83[160/197]: loss:0.32736, lr:0.40000, batch time:0.0319, data time:0.1751
+2022-04-11 22:40:31	Epoch 83[224/197]: loss:0.34911, lr:0.40000, batch time:0.0221, data time:0.0061
+2022-04-11 22:40:31	Epoch 83 training ends, total 1.51s
+2022-04-11 22:40:31	Epoch 83 testing start
+2022-04-11 22:40:31	Valid Loss: 0.0014042
+2022-04-11 22:40:34	Epoch: 83	Catergory: wood	Pixel-AUC: 0.955143	Image-AUC: 0.994737
+2022-04-11 22:40:34	Epoch 83 testing end, total 3.45s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:40:35	Epoch 84[32/197]: loss:0.32818, lr:0.40000, batch time:0.0787, data time:0.2178
+2022-04-11 22:40:35	Epoch 84[96/197]: loss:0.32380, lr:0.40000, batch time:0.0889, data time:0.1755
+2022-04-11 22:40:36	Epoch 84[160/197]: loss:0.32991, lr:0.40000, batch time:0.0870, data time:0.1777
+2022-04-11 22:40:36	Epoch 84[224/197]: loss:0.34019, lr:0.40000, batch time:0.0344, data time:0.0005
+2022-04-11 22:40:36	Epoch 84 training ends, total 1.63s
+2022-04-11 22:40:36	Epoch 84 testing start
+2022-04-11 22:40:36	Valid Loss: 0.0015023
+2022-04-11 22:40:39	Epoch: 84	Catergory: wood	Pixel-AUC: 0.951660	Image-AUC: 0.994737
+2022-04-11 22:40:39	Epoch 84 testing end, total 3.54s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:40:40	Epoch 85[32/197]: loss:0.34390, lr:0.40000, batch time:0.0671, data time:0.2050
+2022-04-11 22:40:40	Epoch 85[96/197]: loss:0.32811, lr:0.40000, batch time:0.0687, data time:0.1741
+2022-04-11 22:40:41	Epoch 85[160/197]: loss:0.33653, lr:0.40000, batch time:0.0677, data time:0.1729
+2022-04-11 22:40:41	Epoch 85[224/197]: loss:0.33849, lr:0.40000, batch time:0.0210, data time:0.0058
+2022-04-11 22:40:41	Epoch 85 training ends, total 1.51s
+2022-04-11 22:40:41	Epoch 85 testing start
+2022-04-11 22:40:41	Valid Loss: 0.0012763
+2022-04-11 22:40:45	Epoch: 85	Catergory: wood	Pixel-AUC: 0.953612	Image-AUC: 0.992982
+2022-04-11 22:40:45	Epoch 85 testing end, total 3.75s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:40:45	Epoch 86[32/197]: loss:0.32839, lr:0.40000, batch time:0.0898, data time:0.2049
+2022-04-11 22:40:46	Epoch 86[96/197]: loss:0.32078, lr:0.40000, batch time:0.0895, data time:0.1757
+2022-04-11 22:40:46	Epoch 86[160/197]: loss:0.32574, lr:0.40000, batch time:0.0905, data time:0.1763
+2022-04-11 22:40:46	Epoch 86[224/197]: loss:0.32938, lr:0.40000, batch time:0.0207, data time:0.0060
+2022-04-11 22:40:46	Epoch 86 training ends, total 1.63s
+2022-04-11 22:40:46	Epoch 86 testing start
+2022-04-11 22:40:47	Valid Loss: 0.0012124
+2022-04-11 22:40:50	Epoch: 86	Catergory: wood	Pixel-AUC: 0.953776	Image-AUC: 0.988596
+2022-04-11 22:40:50	Epoch 86 testing end, total 3.57s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:40:50	Epoch 87[32/197]: loss:0.31694, lr:0.40000, batch time:0.0746, data time:0.2015
+2022-04-11 22:40:51	Epoch 87[96/197]: loss:0.32924, lr:0.40000, batch time:0.0796, data time:0.1954
+2022-04-11 22:40:51	Epoch 87[160/197]: loss:0.31689, lr:0.40000, batch time:0.0355, data time:0.1935
+2022-04-11 22:40:52	Epoch 87[224/197]: loss:0.34186, lr:0.40000, batch time:0.0198, data time:0.0384
+2022-04-11 22:40:52	Epoch 87 training ends, total 1.71s
+2022-04-11 22:40:52	Epoch 87 testing start
+2022-04-11 22:40:52	Valid Loss: 0.0013248
+2022-04-11 22:40:55	Epoch: 87	Catergory: wood	Pixel-AUC: 0.952844	Image-AUC: 0.992982
+2022-04-11 22:40:55	Epoch 87 testing end, total 3.59s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:40:56	Epoch 88[32/197]: loss:0.31483, lr:0.40000, batch time:0.0676, data time:0.2023
+2022-04-11 22:40:56	Epoch 88[96/197]: loss:0.32183, lr:0.40000, batch time:0.0674, data time:0.1731
+2022-04-11 22:40:56	Epoch 88[160/197]: loss:0.31868, lr:0.40000, batch time:0.0669, data time:0.1722
+2022-04-11 22:40:57	Epoch 88[224/197]: loss:0.35311, lr:0.40000, batch time:0.0207, data time:0.0068
+2022-04-11 22:40:57	Epoch 88 training ends, total 1.50s
+2022-04-11 22:40:57	Epoch 88 testing start
+2022-04-11 22:40:57	Valid Loss: 0.0012167
+2022-04-11 22:41:00	Epoch: 88	Catergory: wood	Pixel-AUC: 0.951343	Image-AUC: 0.995614
+2022-04-11 22:41:00	Epoch 88 testing end, total 3.48s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:41:01	Epoch 89[32/197]: loss:0.32333, lr:0.40000, batch time:0.0797, data time:0.2175
+2022-04-11 22:41:01	Epoch 89[96/197]: loss:0.32412, lr:0.40000, batch time:0.0781, data time:0.2253
+2022-04-11 22:41:02	Epoch 89[160/197]: loss:0.31351, lr:0.40000, batch time:0.0838, data time:0.1724
+2022-04-11 22:41:02	Epoch 89[224/197]: loss:0.33520, lr:0.40000, batch time:0.0196, data time:0.0073
+2022-04-11 22:41:02	Epoch 89 training ends, total 1.68s
+2022-04-11 22:41:02	Epoch 89 testing start
+2022-04-11 22:41:02	Valid Loss: 0.0015809
+2022-04-11 22:41:05	Epoch: 89	Catergory: wood	Pixel-AUC: 0.946985	Image-AUC: 0.979825
+2022-04-11 22:41:05	Epoch 89 testing end, total 3.53s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:41:06	Epoch 90[32/197]: loss:0.33046, lr:0.40000, batch time:0.0665, data time:0.2023
+2022-04-11 22:41:06	Epoch 90[96/197]: loss:0.32124, lr:0.40000, batch time:0.0672, data time:0.2090
+2022-04-11 22:41:07	Epoch 90[160/197]: loss:0.31814, lr:0.40000, batch time:0.0677, data time:0.2110
+2022-04-11 22:41:07	Epoch 90[224/197]: loss:0.31208, lr:0.40000, batch time:0.0218, data time:0.0076
+2022-04-11 22:41:07	Epoch 90 training ends, total 1.51s
+2022-04-11 22:41:07	Epoch 90 testing start
+2022-04-11 22:41:07	Valid Loss: 0.0011657
+2022-04-11 22:41:11	Epoch: 90	Catergory: wood	Pixel-AUC: 0.950518	Image-AUC: 0.992982
+2022-04-11 22:41:11	Epoch 90 testing end, total 3.60s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:41:11	Epoch 91[32/197]: loss:0.31389, lr:0.40000, batch time:0.0887, data time:0.2093
+2022-04-11 22:41:11	Epoch 91[96/197]: loss:0.32252, lr:0.40000, batch time:0.0874, data time:0.1786
+2022-04-11 22:41:12	Epoch 91[160/197]: loss:0.31505, lr:0.40000, batch time:0.0404, data time:0.2259
+2022-04-11 22:41:12	Epoch 91[224/197]: loss:0.33684, lr:0.40000, batch time:0.0199, data time:0.0069
+2022-04-11 22:41:12	Epoch 91 training ends, total 1.66s
+2022-04-11 22:41:12	Epoch 91 testing start
+2022-04-11 22:41:13	Valid Loss: 0.0011153
+2022-04-11 22:41:16	Epoch: 91	Catergory: wood	Pixel-AUC: 0.953343	Image-AUC: 0.994737
+2022-04-11 22:41:16	Epoch 91 testing end, total 3.63s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:41:16	Epoch 92[32/197]: loss:0.31445, lr:0.40000, batch time:0.0681, data time:0.2044
+2022-04-11 22:41:17	Epoch 92[96/197]: loss:0.31090, lr:0.40000, batch time:0.0673, data time:0.1790
+2022-04-11 22:41:17	Epoch 92[160/197]: loss:0.31373, lr:0.40000, batch time:0.0691, data time:0.1738
+2022-04-11 22:41:17	Epoch 92[224/197]: loss:0.30864, lr:0.40000, batch time:0.0206, data time:0.0073
+2022-04-11 22:41:17	Epoch 92 training ends, total 1.52s
+2022-04-11 22:41:17	Epoch 92 testing start
+2022-04-11 22:41:18	Valid Loss: 0.0011159
+2022-04-11 22:41:21	Epoch: 92	Catergory: wood	Pixel-AUC: 0.951931	Image-AUC: 0.988596
+2022-04-11 22:41:21	Epoch 92 testing end, total 3.68s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:41:21	Epoch 93[32/197]: loss:0.31043, lr:0.40000, batch time:0.0902, data time:0.2044
+2022-04-11 22:41:22	Epoch 93[96/197]: loss:0.31204, lr:0.40000, batch time:0.0671, data time:0.2205
+2022-04-11 22:41:22	Epoch 93[160/197]: loss:0.31828, lr:0.40000, batch time:0.0660, data time:0.1706
+2022-04-11 22:41:23	Epoch 93[224/197]: loss:0.34477, lr:0.40000, batch time:0.0213, data time:0.0072
+2022-04-11 22:41:23	Epoch 93 training ends, total 1.54s
+2022-04-11 22:41:23	Epoch 93 testing start
+2022-04-11 22:41:23	Valid Loss: 0.0013607
+2022-04-11 22:41:26	Epoch: 93	Catergory: wood	Pixel-AUC: 0.951464	Image-AUC: 0.989474
+2022-04-11 22:41:26	Epoch 93 testing end, total 3.59s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:41:26	Epoch 94[32/197]: loss:0.31290, lr:0.40000, batch time:0.0755, data time:0.2309
+2022-04-11 22:41:27	Epoch 94[96/197]: loss:0.31417, lr:0.40000, batch time:0.0776, data time:0.1952
+2022-04-11 22:41:28	Epoch 94[160/197]: loss:0.31026, lr:0.40000, batch time:0.0801, data time:0.1927
+2022-04-11 22:41:28	Epoch 94[224/197]: loss:0.34564, lr:0.40000, batch time:0.0220, data time:0.0062
+2022-04-11 22:41:28	Epoch 94 training ends, total 1.78s
+2022-04-11 22:41:28	Epoch 94 testing start
+2022-04-11 22:41:28	Valid Loss: 0.0010763
+2022-04-11 22:41:32	Epoch: 94	Catergory: wood	Pixel-AUC: 0.953757	Image-AUC: 0.992982
+2022-04-11 22:41:32	Epoch 94 testing end, total 3.63s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:41:32	Epoch 95[32/197]: loss:0.31251, lr:0.40000, batch time:0.0320, data time:0.2023
+2022-04-11 22:41:32	Epoch 95[96/197]: loss:0.30965, lr:0.40000, batch time:0.0694, data time:0.1765
+2022-04-11 22:41:33	Epoch 95[160/197]: loss:0.31008, lr:0.40000, batch time:0.0668, data time:0.2117
+2022-04-11 22:41:33	Epoch 95[224/197]: loss:0.32630, lr:0.40000, batch time:0.0222, data time:0.0075
+2022-04-11 22:41:33	Epoch 95 training ends, total 1.52s
+2022-04-11 22:41:33	Epoch 95 testing start
+2022-04-11 22:41:33	Valid Loss: 0.0014127
+2022-04-11 22:41:37	Epoch: 95	Catergory: wood	Pixel-AUC: 0.949910	Image-AUC: 0.981579
+2022-04-11 22:41:37	Epoch 95 testing end, total 3.42s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:41:37	Epoch 96[32/197]: loss:0.31122, lr:0.40000, batch time:0.0866, data time:0.2005
+2022-04-11 22:41:37	Epoch 96[96/197]: loss:0.30442, lr:0.40000, batch time:0.0879, data time:0.1762
+2022-04-11 22:41:38	Epoch 96[160/197]: loss:0.31066, lr:0.40000, batch time:0.0906, data time:0.1778
+2022-04-11 22:41:38	Epoch 96[224/197]: loss:0.31473, lr:0.40000, batch time:0.0201, data time:0.0120
+2022-04-11 22:41:38	Epoch 96 training ends, total 1.66s
+2022-04-11 22:41:38	Epoch 96 testing start
+2022-04-11 22:41:39	Valid Loss: 0.0012459
+2022-04-11 22:41:42	Epoch: 96	Catergory: wood	Pixel-AUC: 0.954188	Image-AUC: 0.989474
+2022-04-11 22:41:42	Epoch 96 testing end, total 3.50s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:41:42	Epoch 97[32/197]: loss:0.30814, lr:0.40000, batch time:0.0689, data time:0.2025
+2022-04-11 22:41:42	Epoch 97[96/197]: loss:0.30981, lr:0.40000, batch time:0.0666, data time:0.1770
+2022-04-11 22:41:43	Epoch 97[160/197]: loss:0.30217, lr:0.40000, batch time:0.0668, data time:0.1747
+2022-04-11 22:41:43	Epoch 97[224/197]: loss:0.29678, lr:0.40000, batch time:0.0207, data time:0.0069
+2022-04-11 22:41:43	Epoch 97 training ends, total 1.52s
+2022-04-11 22:41:43	Epoch 97 testing start
+2022-04-11 22:41:44	Valid Loss: 0.0011098
+2022-04-11 22:41:47	Epoch: 97	Catergory: wood	Pixel-AUC: 0.952372	Image-AUC: 0.992105
+2022-04-11 22:41:47	Epoch 97 testing end, total 3.70s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:41:47	Epoch 98[32/197]: loss:0.30965, lr:0.40000, batch time:0.0870, data time:0.2067
+2022-04-11 22:41:48	Epoch 98[96/197]: loss:0.30124, lr:0.40000, batch time:0.0876, data time:0.2244
+2022-04-11 22:41:48	Epoch 98[160/197]: loss:0.30428, lr:0.40000, batch time:0.0665, data time:0.1754
+2022-04-11 22:41:48	Epoch 98[224/197]: loss:0.33724, lr:0.40000, batch time:0.0205, data time:0.0075
+2022-04-11 22:41:48	Epoch 98 training ends, total 1.58s
+2022-04-11 22:41:48	Epoch 98 testing start
+2022-04-11 22:41:49	Valid Loss: 0.0013548
+2022-04-11 22:41:52	Epoch: 98	Catergory: wood	Pixel-AUC: 0.952671	Image-AUC: 0.992982
+2022-04-11 22:41:52	Epoch 98 testing end, total 3.54s
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/nn/layer/norm.py:653: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+2022-04-11 22:41:52	Epoch 99[32/197]: loss:0.30034, lr:0.40000, batch time:0.0729, data time:0.2016
+2022-04-11 22:41:53	Epoch 99[96/197]: loss:0.30841, lr:0.40000, batch time:0.0692, data time:0.1723
+2022-04-11 22:41:53	Epoch 99[160/197]: loss:0.30421, lr:0.40000, batch time:0.0675, data time:0.1750
+2022-04-11 22:41:54	Epoch 99[224/197]: loss:0.35376, lr:0.40000, batch time:0.0199, data time:0.0068
+2022-04-11 22:41:54	Epoch 99 training ends, total 1.52s
+2022-04-11 22:41:54	Epoch 99 testing start
+2022-04-11 22:41:54	Valid Loss: 0.0014286
+2022-04-11 22:41:57	Epoch: 99	Catergory: wood	Pixel-AUC: 0.956692	Image-AUC: 0.990351
+2022-04-11 22:41:57	Epoch 99 testing end, total 3.60s

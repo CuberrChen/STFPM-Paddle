@@ -1,0 +1,47 @@
+W0412 02:07:22.771772  5930 analysis_predictor.cc:795] The one-time configuration of analysis predictor failed, which may be due to native predictor called first and its configurations taken effect.
+[1m[35m--- Running analysis [ir_graph_build_pass][0m
+[1m[35m--- Running analysis [ir_graph_clean_pass][0m
+[1m[35m--- Running analysis [ir_analysis_pass][0m
+[32m--- Running IR pass [is_test_pass][0m
+[32m--- Running IR pass [simplify_with_basic_ops_pass][0m
+[32m--- Running IR pass [conv_affine_channel_fuse_pass][0m
+[32m--- Running IR pass [conv_eltwiseadd_affine_channel_fuse_pass][0m
+[32m--- Running IR pass [conv_bn_fuse_pass][0m
+I0412 02:07:22.859308  5930 fuse_pass_base.cc:57] ---  detected 30 subgraphs
+[32m--- Running IR pass [conv_eltwiseadd_bn_fuse_pass][0m
+[32m--- Running IR pass [embedding_eltwise_layernorm_fuse_pass][0m
+[32m--- Running IR pass [multihead_matmul_fuse_pass_v2][0m
+[32m--- Running IR pass [squeeze2_matmul_fuse_pass][0m
+[32m--- Running IR pass [reshape2_matmul_fuse_pass][0m
+[32m--- Running IR pass [flatten2_matmul_fuse_pass][0m
+[32m--- Running IR pass [map_matmul_v2_to_mul_pass][0m
+[32m--- Running IR pass [map_matmul_v2_to_matmul_pass][0m
+[32m--- Running IR pass [map_matmul_to_mul_pass][0m
+[32m--- Running IR pass [fc_fuse_pass][0m
+[32m--- Running IR pass [fc_elementwise_layernorm_fuse_pass][0m
+[32m--- Running IR pass [conv_elementwise_add_act_fuse_pass][0m
+[32m--- Running IR pass [conv_elementwise_add2_act_fuse_pass][0m
+[32m--- Running IR pass [conv_elementwise_add_fuse_pass][0m
+[32m--- Running IR pass [transpose_flatten_concat_fuse_pass][0m
+[32m--- Running IR pass [runtime_context_cache_pass][0m
+[1m[35m--- Running analysis [ir_params_sync_among_devices_pass][0m
+I0412 02:07:22.883211  5930 ir_params_sync_among_devices_pass.cc:45] Sync params from CPU to GPU
+[1m[35m--- Running analysis [adjust_cudnn_workspace_size_pass][0m
+[1m[35m--- Running analysis [inference_op_replace_pass][0m
+[1m[35m--- Running analysis [memory_optimize_pass][0m
+I0412 02:07:22.903148  5930 memory_optimize_pass.cc:216] Cluster name : x  size: 786432
+I0412 02:07:22.903170  5930 memory_optimize_pass.cc:216] Cluster name : tmp_0  size: 1048576
+I0412 02:07:22.903173  5930 memory_optimize_pass.cc:216] Cluster name : relu_0.tmp_0  size: 4194304
+I0412 02:07:22.903177  5930 memory_optimize_pass.cc:216] Cluster name : relu_2.tmp_0  size: 1048576
+[1m[35m--- Running analysis [ir_graph_to_program_pass][0m
+I0412 02:07:22.929483  5930 analysis_predictor.cc:714] ======= optimize end =======
+I0412 02:07:22.932457  5930 naive_executor.cc:98] ---  skip [feed], feed -> x
+I0412 02:07:22.933372  5930 naive_executor.cc:98] ---  skip [relu_4.tmp_0], fetch -> fetch
+I0412 02:07:22.933388  5930 naive_executor.cc:98] ---  skip [relu_8.tmp_0], fetch -> fetch
+I0412 02:07:22.933391  5930 naive_executor.cc:98] ---  skip [relu_12.tmp_0], fetch -> fetch
+I0412 02:07:22.933395  5930 naive_executor.cc:98] ---  skip [relu_21.tmp_0], fetch -> fetch
+I0412 02:07:22.933399  5930 naive_executor.cc:98] ---  skip [relu_25.tmp_0], fetch -> fetch
+I0412 02:07:22.933403  5930 naive_executor.cc:98] ---  skip [relu_29.tmp_0], fetch -> fetch
+W0412 02:07:22.995218  5930 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0412 02:07:22.999341  5930 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+Inference model(STFPM)...
