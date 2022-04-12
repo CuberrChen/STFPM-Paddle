@@ -33,9 +33,7 @@ STFPM算法由预先培训的教师网络和结构相同的学生网络组成。
 | anomalib | 0.951 | 0.986  | 0.988 |  0.991  | 0.946 | 0.949 | 0.971  | 0.898 |  0.962  |  0.981   |   0.942   | 0.878 | 0.983 |   0.983    |   0.838    | 0.972  |
 | Paddle | 0.967 | 0.992  | 0.988 |  0.994  | 0.959 | 0.954 | 0.988  | 0.954 |  0.979  |  0.987   |   0.974   | 0.970 | 0.982 |   0.989    |   0.817    | 0.982  |
 
-image-level auc的Mean为0.937。
-
-pixel-level auc的Mean为0.967。
+image-level auc的Mean为0.937。 pixel-level auc的Mean为0.967。
 
 达到验收指标。
 
@@ -102,7 +100,7 @@ python predict.py --checkpoint=output/carpet/best.pdparams --image_path=/home/ai
 
 ### 第五步：TIPC
 
-**详细日志在test_tipc/output**
+**详细日志在[test_tipc/output](test_tipc/output/STFPM)**
 
 TIPC: [TIPC: test_tipc/README.md](test_tipc/README.md)
 
@@ -128,20 +126,17 @@ TIPC结果：
 ![tipc测试结果](test_tipc/data/tipc_result.png)
 
 
-
 - 预训练模型的静态图导出与推理测试：
 
 ```shell
-python export_model.py --depth 18 --img_size=256 --model_path=./output/best.pdparams --save_dir=./output```
+python export_model.py --depth 18 --img_size=256 --model_path=./output/carpet/best.pdparams --save_dir=./output
 ```
 
 ```shell
-python infer.py --use_gpu=True --model_file=output/model.pdmodel --input_file=utils/demo_images --params_file=output/model.pdiparams
+python infer.py --use_gpu=True --model_file=output/model.pdmodel --input_file=/home/aistudio/data/carpet/test/color/000.png --params_file=output/model.pdiparams
 ```
-预测输出如下：
-![exportmodelinfer](test_tipc/docs/exportmodelinfer.png)
 
-结果与动态图预测结果一致。
+可正常导出与推理。
 
 ## 5 代码结构与说明
 **代码结构**
