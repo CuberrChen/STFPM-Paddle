@@ -203,7 +203,10 @@ def train_val(teacher, student, train_loader, val_loader, args, test_pos_loader=
                 os.makedirs(dir_name)
             paddle.save(student.state_dict(), save_name)
         if args.train_val:
-            val(args, student, teacher, test_pos_loader, test_neg_loader, epoch)
+            try:
+                val(args, student, teacher, test_pos_loader, test_neg_loader, epoch)
+            except:
+                pass
         t = time.time() - epoch_begin - t
         print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\t'+
               "Epoch {} testing end, total {:.2f}s".format(epoch, t))
