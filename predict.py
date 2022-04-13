@@ -1,7 +1,8 @@
-import argparse
 import cv2
+import argparse
 import numpy as np
 from PIL import Image
+
 import paddle
 import paddle.nn.functional as F
 from paddle.vision import transforms
@@ -17,6 +18,7 @@ def main():
     # trivial parameters
     parser.add_argument("--image_path", type=str, default=None, help="picture path")
     parser.add_argument("--save_path", type=str, default='results', help="save results")
+    parser.add_argument("--seed", type=int, default=42)
 
     args = parser.parse_args()
 
@@ -87,7 +89,6 @@ def anomaly_map_to_color_map(anomaly_map: np.ndarray, normalize: bool = True) ->
     anomaly_map = cv2.cvtColor(anomaly_map, cv2.COLOR_BGR2RGB)
     return anomaly_map
 
+
 if __name__ == "__main__":
     main()
-
-paddle.nn.functional.normalize()

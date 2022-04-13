@@ -13,7 +13,7 @@ train_infer_img_dir:./test_tipc/data/MVTec
 null:null
 ##
 trainer:norm_train
-norm_train:train.py train --depth=18 --mvtec_ad=./test_tipc/data/MVTec --category capsule --model_save_path=/test_tipc/output/ --seed 42 --epochs 2
+norm_train:train.py train --depth=18 --mvtec_ad=./test_tipc/data/MVTec --category capsule --model_save_path=./test_tipc/output/ --seed 42 --epochs 2
 pact_train:null
 fpgm_train:null
 distill_train:null
