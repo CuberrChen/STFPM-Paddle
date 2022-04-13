@@ -8,7 +8,7 @@ This is the unofficial code based on **PaddlePaddle** of BMVC 2021 paper:<br>
 
 STFPM算法由预先培训的教师网络和结构相同的学生网络组成。学生网络通过将特征与教师网络中的对应特征相匹配来学习无异常图像的分布。多尺度特征匹配用于增强鲁棒性。这种分层特征匹配使学生网络能够从特征金字塔接收多层次知识的混合，从而允许各种大小的异常检测。
 在推理过程中，比较了教师网络和学生网络的特征金字塔。差异越大，异常发生的概率越高。
-本项目基于PaddlePaddle框架复现了CSRA，并在MvTec数据集上进行了实验。
+本项目基于PaddlePaddle框架复现了STFPM，并在MvTec数据集上进行了实验。
 **论文：**
 - [1]  Wang, G.  and  Han, S.  and  Ding, E.  and  Huang, D. [Student-Teacher Feature Pyramid Matching for Anomaly Detection](https://arxiv.org/abs/2103.04257v3)
 **项目参考：**
